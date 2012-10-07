@@ -7,10 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B58373A16207CB80072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
+		9B58373B16207CDF0072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
+		9B58373E16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58373D16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m */; };
+		9B5837411621C70F0072D1B1 /* SimpleKMLColorStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5837401621C70F0072D1B1 /* SimpleKMLColorStyleTest.m */; };
+		9B5837441621C94E0072D1B1 /* SimpleKMLOverlayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5837431621C94E0072D1B1 /* SimpleKMLOverlayTest.m */; };
 		9B6191C5161983BE002981F5 /* SimpleKMLPointTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C4161983BE002981F5 /* SimpleKMLPointTest.m */; };
 		9B6191C81619AB7D002981F5 /* SimpleKMLObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C71619AB7D002981F5 /* SimpleKMLObjectTest.m */; };
+		9B6191DA1619B99B002981F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D91619B99B002981F5 /* Cocoa.framework */; };
+		9B6191E41619B99B002981F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B6191E21619B99B002981F5 /* InfoPlist.strings */; };
+		9B6191EF1619B99B002981F5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AC815D9A35E0041D8EE /* SenTestingKit.framework */; };
+		9B6191F01619B99B002981F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D91619B99B002981F5 /* Cocoa.framework */; };
+		9B6191F31619B99B002981F5 /* Simple-KML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D81619B99A002981F5 /* Simple-KML.framework */; };
+		9B6191F91619B99B002981F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B6191F71619B99B002981F5 /* InfoPlist.strings */; };
+		9B6191FC1619B99B002981F5 /* Simple_KMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191FB1619B99B002981F5 /* Simple_KMLTests.m */; };
+		9B6192041619BE40002981F5 /* SimpleKML.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE315D9A3B80041D8EE /* SimpleKML.m */; };
+		9B6192081619BE40002981F5 /* SimpleKMLBalloonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE715D9A3B80041D8EE /* SimpleKMLBalloonStyle.m */; };
+		9B61920A1619BE40002981F5 /* SimpleKMLColorStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE915D9A3B80041D8EE /* SimpleKMLColorStyle.m */; };
+		9B61920C1619BE40002981F5 /* SimpleKMLContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AEB15D9A3B80041D8EE /* SimpleKMLContainer.m */; };
+		9B61920E1619BE40002981F5 /* SimpleKMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AED15D9A3B80041D8EE /* SimpleKMLDocument.m */; };
+		9B6192101619BE40002981F5 /* SimpleKMLFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AEF15D9A3B80041D8EE /* SimpleKMLFeature.m */; };
+		9B6192121619BE40002981F5 /* SimpleKMLFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AF115D9A3B80041D8EE /* SimpleKMLFolder.m */; };
+		9B6192141619BE40002981F5 /* SimpleKMLGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AF315D9A3B80041D8EE /* SimpleKMLGeometry.m */; };
+		9B6192161619BE40002981F5 /* SimpleKMLGroundOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AF515D9A3B80041D8EE /* SimpleKMLGroundOverlay.m */; };
+		9B6192181619BE40002981F5 /* SimpleKMLIconStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AF715D9A3B80041D8EE /* SimpleKMLIconStyle.m */; };
+		9B61921A1619BE40002981F5 /* SimpleKMLLinearRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AF915D9A3B80041D8EE /* SimpleKMLLinearRing.m */; };
+		9B61921C1619BE40002981F5 /* SimpleKMLLineString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AFB15D9A3B80041D8EE /* SimpleKMLLineString.m */; };
+		9B61921E1619BE40002981F5 /* SimpleKMLLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AFD15D9A3B80041D8EE /* SimpleKMLLineStyle.m */; };
+		9B6192201619BE40002981F5 /* SimpleKMLMultiGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AFF15D9A3B80041D8EE /* SimpleKMLMultiGeometry.m */; };
+		9B6192221619BE40002981F5 /* SimpleKMLObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0115D9A3B80041D8EE /* SimpleKMLObject.m */; };
+		9B6192241619BE40002981F5 /* SimpleKMLOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0315D9A3B80041D8EE /* SimpleKMLOverlay.m */; };
+		9B6192261619BE40002981F5 /* SimpleKMLPlacemark.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0515D9A3B80041D8EE /* SimpleKMLPlacemark.m */; };
+		9B6192281619BE40002981F5 /* SimpleKMLPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0715D9A3B80041D8EE /* SimpleKMLPoint.m */; };
+		9B61922A1619BE40002981F5 /* SimpleKMLPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0915D9A3B80041D8EE /* SimpleKMLPolygon.m */; };
+		9B61922C1619BE40002981F5 /* SimpleKMLPolyStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0B15D9A3B80041D8EE /* SimpleKMLPolyStyle.m */; };
+		9B61922E1619BE40002981F5 /* SimpleKMLStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0D15D9A3B80041D8EE /* SimpleKMLStyle.m */; };
+		9B6192301619BE40002981F5 /* SimpleKMLStyleSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0F15D9A3B80041D8EE /* SimpleKMLStyleSelector.m */; };
+		9B6192321619BE40002981F5 /* SimpleKMLSubStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B1115D9A3B80041D8EE /* SimpleKMLSubStyle.m */; };
+		9B619235161A454D002981F5 /* SimpleKMLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B619233161A454D002981F5 /* SimpleKMLImage.h */; };
+		9B619236161A454D002981F5 /* SimpleKMLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619234161A454D002981F5 /* SimpleKMLImage.m */; };
+		9B619237161A454D002981F5 /* SimpleKMLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619234161A454D002981F5 /* SimpleKMLImage.m */; };
+		9B619239161A4631002981F5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B619238161A4630002981F5 /* libxml2.dylib */; };
+		9B61923C161A4A3C002981F5 /* SimpleKMLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61923B161A4A3C002981F5 /* SimpleKMLTest.m */; };
+		9B619249161C50EC002981F5 /* SimpleKMLColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B619247161C50EB002981F5 /* SimpleKMLColor.h */; };
+		9B61924A161C50EC002981F5 /* SimpleKMLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619248161C50EC002981F5 /* SimpleKMLColor.m */; };
+		9B61924B161C50EC002981F5 /* SimpleKMLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619248161C50EC002981F5 /* SimpleKMLColor.m */; };
 		9B679714160F11D200AB779B /* SimpleKMLLinearRingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B679713160F11D200AB779B /* SimpleKMLLinearRingTest.m */; };
 		9BB422D915F73290004A984E /* libprofile_rt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB422D815F73290004A984E /* libprofile_rt.dylib */; };
+		9BD34C0C16202DB70066A937 /* SimpleKMLColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD34C0B16202DB70066A937 /* SimpleKMLColorTest.m */; };
 		9BFE3ABA15D9A35E0041D8EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AB915D9A35E0041D8EE /* Foundation.framework */; };
 		9BFE3AC915D9A35E0041D8EE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AC815D9A35E0041D8EE /* SenTestingKit.framework */; };
 		9BFE3ACB15D9A35E0041D8EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3ACA15D9A35E0041D8EE /* UIKit.framework */; };
@@ -73,6 +117,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9B6191F11619B99B002981F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BFE3AAD15D9A35E0041D8EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6191D71619B99A002981F5;
+			remoteInfo = "Simple-KML";
+		};
 		9BFE3ACD15D9A35E0041D8EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BFE3AAD15D9A35E0041D8EE /* Project object */;
@@ -123,13 +174,43 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B58373716207C790072D1B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B58373916207CB80072D1B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B58373C16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLBalloonStyleTest.h; sourceTree = "<group>"; };
+		9B58373D16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLBalloonStyleTest.m; sourceTree = "<group>"; };
+		9B58373F1621C70F0072D1B1 /* SimpleKMLColorStyleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLColorStyleTest.h; sourceTree = "<group>"; };
+		9B5837401621C70F0072D1B1 /* SimpleKMLColorStyleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLColorStyleTest.m; sourceTree = "<group>"; };
+		9B5837421621C94E0072D1B1 /* SimpleKMLOverlayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLOverlayTest.h; sourceTree = "<group>"; };
+		9B5837431621C94E0072D1B1 /* SimpleKMLOverlayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLOverlayTest.m; sourceTree = "<group>"; };
 		9B6191C3161983BE002981F5 /* SimpleKMLPointTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLPointTest.h; sourceTree = "<group>"; };
 		9B6191C4161983BE002981F5 /* SimpleKMLPointTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLPointTest.m; sourceTree = "<group>"; };
 		9B6191C61619AB7D002981F5 /* SimpleKMLObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLObjectTest.h; sourceTree = "<group>"; };
 		9B6191C71619AB7D002981F5 /* SimpleKMLObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLObjectTest.m; sourceTree = "<group>"; };
+		9B6191D81619B99A002981F5 /* Simple-KML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Simple-KML.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6191D91619B99B002981F5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		9B6191DC1619B99B002981F5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9B6191DD1619B99B002981F5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9B6191DE1619B99B002981F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B6191E11619B99B002981F5 /* Simple-KML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple-KML-Info.plist"; path = "../Simple-KML/Simple-KML-Info.plist"; sourceTree = "<group>"; };
+		9B6191E31619B99B002981F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B6191E51619B99B002981F5 /* Simple-KML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Simple-KML-Prefix.pch"; path = "../Simple-KML/Simple-KML-Prefix.pch"; sourceTree = "<group>"; };
+		9B6191EE1619B99B002981F5 /* Simple-KMLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Simple-KMLTests.octest"; path = "Simple-KML-FrameworkTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6191F61619B99B002981F5 /* Simple-KMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-KMLTests-Info.plist"; sourceTree = "<group>"; };
+		9B6191F81619B99B002981F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B6191FA1619B99B002981F5 /* Simple_KMLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_KMLTests.h; sourceTree = "<group>"; };
+		9B6191FB1619B99B002981F5 /* Simple_KMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_KMLTests.m; sourceTree = "<group>"; };
+		9B619233161A454D002981F5 /* SimpleKMLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLImage.h; sourceTree = "<group>"; };
+		9B619234161A454D002981F5 /* SimpleKMLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLImage.m; sourceTree = "<group>"; };
+		9B619238161A4630002981F5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+		9B61923A161A4A3C002981F5 /* SimpleKMLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLTest.h; sourceTree = "<group>"; };
+		9B61923B161A4A3C002981F5 /* SimpleKMLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLTest.m; sourceTree = "<group>"; };
+		9B619247161C50EB002981F5 /* SimpleKMLColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLColor.h; sourceTree = "<group>"; };
+		9B619248161C50EC002981F5 /* SimpleKMLColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLColor.m; sourceTree = "<group>"; };
 		9B679712160F11D200AB779B /* SimpleKMLLinearRingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLLinearRingTest.h; sourceTree = "<group>"; };
 		9B679713160F11D200AB779B /* SimpleKMLLinearRingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLLinearRingTest.m; sourceTree = "<group>"; };
 		9BB422D815F73290004A984E /* libprofile_rt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libprofile_rt.dylib; path = ../../../Desktop/libprofile_rt.dylib; sourceTree = "<group>"; };
+		9BD34C0A16202DB70066A937 /* SimpleKMLColorTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLColorTest.h; sourceTree = "<group>"; };
+		9BD34C0B16202DB70066A937 /* SimpleKMLColorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLColorTest.m; sourceTree = "<group>"; };
 		9BFE3AB615D9A35E0041D8EE /* libSimple-KML-Lib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libSimple-KML-Lib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BFE3AB915D9A35E0041D8EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BFE3ABD15D9A35E0041D8EE /* Simple-KML-Lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple-KML-Lib-Prefix.pch"; sourceTree = "<group>"; };
@@ -243,10 +324,30 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9B6191D41619B99A002981F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B619239161A4631002981F5 /* libxml2.dylib in Frameworks */,
+				9B6191DA1619B99B002981F5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6191EA1619B99B002981F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6191EF1619B99B002981F5 /* SenTestingKit.framework in Frameworks */,
+				9B6191F01619B99B002981F5 /* Cocoa.framework in Frameworks */,
+				9B6191F31619B99B002981F5 /* Simple-KML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BFE3AB315D9A35E0041D8EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B58373A16207CB80072D1B1 /* CoreGraphics.framework in Frameworks */,
 				9BFE3E6C15D9A4940041D8EE /* libxml2.dylib in Frameworks */,
 				9BFE3ABA15D9A35E0041D8EE /* Foundation.framework in Frameworks */,
 			);
@@ -256,6 +357,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B58373B16207CDF0072D1B1 /* CoreGraphics.framework in Frameworks */,
 				9BB422D915F73290004A984E /* libprofile_rt.dylib in Frameworks */,
 				9BFE3F8415D9AE6D0041D8EE /* libz.dylib in Frameworks */,
 				9BFE3F8215D9AE160041D8EE /* CoreLocation.framework in Frameworks */,
@@ -272,11 +374,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B6191DB1619B99B002981F5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6191DC1619B99B002981F5 /* AppKit.framework */,
+				9B6191DD1619B99B002981F5 /* CoreData.framework */,
+				9B6191DE1619B99B002981F5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9B6191F41619B99B002981F5 /* Simple-KML-FrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6191FA1619B99B002981F5 /* Simple_KMLTests.h */,
+				9B6191FB1619B99B002981F5 /* Simple_KMLTests.m */,
+				9B6191F51619B99B002981F5 /* Supporting Files */,
+			);
+			name = "Simple-KML-FrameworkTests";
+			path = "Simple-KMLTests";
+			sourceTree = "<group>";
+		};
+		9B6191F51619B99B002981F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B6191F61619B99B002981F5 /* Simple-KMLTests-Info.plist */,
+				9B6191F71619B99B002981F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9BFE3AAB15D9A35E0041D8EE = {
 			isa = PBXGroup;
 			children = (
+				9B58373916207CB80072D1B1 /* CoreGraphics.framework */,
+				9B58373716207C790072D1B1 /* QuartzCore.framework */,
 				9BFE3ABB15D9A35E0041D8EE /* Simple-KML-Lib */,
 				9BFE3AD015D9A35E0041D8EE /* Simple-KML-LibTests */,
+				9B6191F41619B99B002981F5 /* Simple-KML-FrameworkTests */,
 				9BFE3AB815D9A35E0041D8EE /* Frameworks */,
 				9BFE3AB715D9A35E0041D8EE /* Products */,
 			);
@@ -287,6 +422,8 @@
 			children = (
 				9BFE3AB615D9A35E0041D8EE /* libSimple-KML-Lib.a */,
 				9BFE3AC715D9A35E0041D8EE /* Simple-KML-LibTests.octest */,
+				9B6191D81619B99A002981F5 /* Simple-KML.framework */,
+				9B6191EE1619B99B002981F5 /* Simple-KMLTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,6 +431,7 @@
 		9BFE3AB815D9A35E0041D8EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B619238161A4630002981F5 /* libxml2.dylib */,
 				9BB422D815F73290004A984E /* libprofile_rt.dylib */,
 				9BFE3F8315D9AE6D0041D8EE /* libz.dylib */,
 				9BFE3E6B15D9A4940041D8EE /* libxml2.dylib */,
@@ -302,6 +440,8 @@
 				9BFE3AB915D9A35E0041D8EE /* Foundation.framework */,
 				9BFE3AC815D9A35E0041D8EE /* SenTestingKit.framework */,
 				9BFE3ACA15D9A35E0041D8EE /* UIKit.framework */,
+				9B6191D91619B99B002981F5 /* Cocoa.framework */,
+				9B6191DB1619B99B002981F5 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -320,6 +460,9 @@
 			isa = PBXGroup;
 			children = (
 				9BFE3ABD15D9A35E0041D8EE /* Simple-KML-Lib-Prefix.pch */,
+				9B6191E51619B99B002981F5 /* Simple-KML-Prefix.pch */,
+				9B6191E11619B99B002981F5 /* Simple-KML-Info.plist */,
+				9B6191E21619B99B002981F5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -336,6 +479,16 @@
 				9B6191C4161983BE002981F5 /* SimpleKMLPointTest.m */,
 				9B6191C61619AB7D002981F5 /* SimpleKMLObjectTest.h */,
 				9B6191C71619AB7D002981F5 /* SimpleKMLObjectTest.m */,
+				9B61923A161A4A3C002981F5 /* SimpleKMLTest.h */,
+				9B61923B161A4A3C002981F5 /* SimpleKMLTest.m */,
+				9BD34C0A16202DB70066A937 /* SimpleKMLColorTest.h */,
+				9BD34C0B16202DB70066A937 /* SimpleKMLColorTest.m */,
+				9B58373C16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.h */,
+				9B58373D16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m */,
+				9B58373F1621C70F0072D1B1 /* SimpleKMLColorStyleTest.h */,
+				9B5837401621C70F0072D1B1 /* SimpleKMLColorStyleTest.m */,
+				9B5837421621C94E0072D1B1 /* SimpleKMLOverlayTest.h */,
+				9B5837431621C94E0072D1B1 /* SimpleKMLOverlayTest.m */,
 			);
 			path = "Simple-KML-LibTests";
 			sourceTree = "<group>";
@@ -400,6 +553,10 @@
 				9BFE3B0F15D9A3B80041D8EE /* SimpleKMLStyleSelector.m */,
 				9BFE3B1015D9A3B80041D8EE /* SimpleKMLSubStyle.h */,
 				9BFE3B1115D9A3B80041D8EE /* SimpleKMLSubStyle.m */,
+				9B619233161A454D002981F5 /* SimpleKMLImage.h */,
+				9B619234161A454D002981F5 /* SimpleKMLImage.m */,
+				9B619247161C50EB002981F5 /* SimpleKMLColor.h */,
+				9B619248161C50EC002981F5 /* SimpleKMLColor.m */,
 			);
 			name = source;
 			path = ../../source;
@@ -545,7 +702,56 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		9B6191D51619B99A002981F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B619235161A454D002981F5 /* SimpleKMLImage.h in Headers */,
+				9B619249161C50EC002981F5 /* SimpleKMLColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		9B6191D71619B99A002981F5 /* Simple-KML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6191FD1619B99B002981F5 /* Build configuration list for PBXNativeTarget "Simple-KML" */;
+			buildPhases = (
+				9B6191D31619B99A002981F5 /* Sources */,
+				9B6191D41619B99A002981F5 /* Frameworks */,
+				9B6191D51619B99A002981F5 /* Headers */,
+				9B6191D61619B99A002981F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple-KML";
+			productName = "Simple-KML";
+			productReference = 9B6191D81619B99A002981F5 /* Simple-KML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B6191ED1619B99B002981F5 /* Simple-KML-FrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6192001619B99B002981F5 /* Build configuration list for PBXNativeTarget "Simple-KML-FrameworkTests" */;
+			buildPhases = (
+				9B6191E91619B99B002981F5 /* Sources */,
+				9B6191EA1619B99B002981F5 /* Frameworks */,
+				9B6191EB1619B99B002981F5 /* Resources */,
+				9B6191EC1619B99B002981F5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6191F21619B99B002981F5 /* PBXTargetDependency */,
+			);
+			name = "Simple-KML-FrameworkTests";
+			productName = "Simple-KMLTests";
+			productReference = 9B6191EE1619B99B002981F5 /* Simple-KMLTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		9BFE3AB515D9A35E0041D8EE /* Simple-KML-Lib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BFE3ADB15D9A35E0041D8EE /* Build configuration list for PBXNativeTarget "Simple-KML-Lib" */;
@@ -612,6 +818,8 @@
 			targets = (
 				9BFE3AB515D9A35E0041D8EE /* Simple-KML-Lib */,
 				9BFE3AC615D9A35E0041D8EE /* Simple-KML-LibTests */,
+				9B6191D71619B99A002981F5 /* Simple-KML */,
+				9B6191ED1619B99B002981F5 /* Simple-KML-FrameworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -641,6 +849,22 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9B6191D61619B99A002981F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6191E41619B99B002981F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6191EB1619B99B002981F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6191F91619B99B002981F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BFE3AC415D9A35E0041D8EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,6 +876,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9B6191EC1619B99B002981F5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		9BFE3AC515D9A35E0041D8EE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -668,6 +905,46 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9B6191D31619B99A002981F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6192041619BE40002981F5 /* SimpleKML.m in Sources */,
+				9B6192081619BE40002981F5 /* SimpleKMLBalloonStyle.m in Sources */,
+				9B61920A1619BE40002981F5 /* SimpleKMLColorStyle.m in Sources */,
+				9B61920C1619BE40002981F5 /* SimpleKMLContainer.m in Sources */,
+				9B61920E1619BE40002981F5 /* SimpleKMLDocument.m in Sources */,
+				9B6192101619BE40002981F5 /* SimpleKMLFeature.m in Sources */,
+				9B6192121619BE40002981F5 /* SimpleKMLFolder.m in Sources */,
+				9B6192141619BE40002981F5 /* SimpleKMLGeometry.m in Sources */,
+				9B6192161619BE40002981F5 /* SimpleKMLGroundOverlay.m in Sources */,
+				9B6192181619BE40002981F5 /* SimpleKMLIconStyle.m in Sources */,
+				9B61921A1619BE40002981F5 /* SimpleKMLLinearRing.m in Sources */,
+				9B61921C1619BE40002981F5 /* SimpleKMLLineString.m in Sources */,
+				9B61921E1619BE40002981F5 /* SimpleKMLLineStyle.m in Sources */,
+				9B6192201619BE40002981F5 /* SimpleKMLMultiGeometry.m in Sources */,
+				9B6192221619BE40002981F5 /* SimpleKMLObject.m in Sources */,
+				9B6192241619BE40002981F5 /* SimpleKMLOverlay.m in Sources */,
+				9B6192261619BE40002981F5 /* SimpleKMLPlacemark.m in Sources */,
+				9B6192281619BE40002981F5 /* SimpleKMLPoint.m in Sources */,
+				9B61922A1619BE40002981F5 /* SimpleKMLPolygon.m in Sources */,
+				9B61922C1619BE40002981F5 /* SimpleKMLPolyStyle.m in Sources */,
+				9B61922E1619BE40002981F5 /* SimpleKMLStyle.m in Sources */,
+				9B6192301619BE40002981F5 /* SimpleKMLStyleSelector.m in Sources */,
+				9B6192321619BE40002981F5 /* SimpleKMLSubStyle.m in Sources */,
+				9B619237161A454D002981F5 /* SimpleKMLImage.m in Sources */,
+				9B61924B161C50EC002981F5 /* SimpleKMLColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6191E91619B99B002981F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6191FC1619B99B002981F5 /* Simple_KMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9BFE3AB215D9A35E0041D8EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -718,6 +995,8 @@
 				9BFE3E3115D9A3CB0041D8EE /* CXMLNode_PrivateExtensions.m in Sources */,
 				9BFE3E3215D9A3CB0041D8EE /* CXMLNode_XPathExtensions.m in Sources */,
 				9BFE3E3315D9A3CB0041D8EE /* CTidy.m in Sources */,
+				9B619236161A454D002981F5 /* SimpleKMLImage.m in Sources */,
+				9B61924A161C50EC002981F5 /* SimpleKMLColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -729,12 +1008,22 @@
 				9B679714160F11D200AB779B /* SimpleKMLLinearRingTest.m in Sources */,
 				9B6191C5161983BE002981F5 /* SimpleKMLPointTest.m in Sources */,
 				9B6191C81619AB7D002981F5 /* SimpleKMLObjectTest.m in Sources */,
+				9B61923C161A4A3C002981F5 /* SimpleKMLTest.m in Sources */,
+				9BD34C0C16202DB70066A937 /* SimpleKMLColorTest.m in Sources */,
+				9B58373E16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m in Sources */,
+				9B5837411621C70F0072D1B1 /* SimpleKMLColorStyleTest.m in Sources */,
+				9B5837441621C94E0072D1B1 /* SimpleKMLOverlayTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9B6191F21619B99B002981F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6191D71619B99A002981F5 /* Simple-KML */;
+			targetProxy = 9B6191F11619B99B002981F5 /* PBXContainerItemProxy */;
+		};
 		9BFE3ACE15D9A35E0041D8EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9BFE3AB515D9A35E0041D8EE /* Simple-KML-Lib */;
@@ -748,6 +1037,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9B6191E21619B99B002981F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6191E31619B99B002981F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = "../Simple-KML";
+			sourceTree = "<group>";
+		};
+		9B6191F71619B99B002981F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6191F81619B99B002981F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		9BFE3AD315D9A35E0041D8EE /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -759,6 +1065,104 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9B6191FE1619B99B002981F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Simple-KML/Simple-KML-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		9B6191FF1619B99B002981F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Simple-KML/Simple-KML-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		9B6192011619B99B002981F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Simple-KMLTests/Simple-KMLTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9B6192021619B99B002981F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "Simple-KMLTests/Simple-KMLTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		9BFE3AD915D9A35E0041D8EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -910,6 +1314,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9B6191FD1619B99B002981F5 /* Build configuration list for PBXNativeTarget "Simple-KML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6191FE1619B99B002981F5 /* Debug */,
+				9B6191FF1619B99B002981F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6192001619B99B002981F5 /* Build configuration list for PBXNativeTarget "Simple-KML-FrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6192011619B99B002981F5 /* Debug */,
+				9B6192021619B99B002981F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9BFE3AB015D9A35E0041D8EE /* Build configuration list for PBXProject "Simple-KML-Lib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

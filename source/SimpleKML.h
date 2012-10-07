@@ -34,8 +34,18 @@
 //  http://code.google.com/apis/kml/documentation/kmlreference.html#kml
 //
 
+#import <Availability.h>
+
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
 #import <UIKit/UIKit.h>
+#endif
+
+#if __MAC_OS_X_VERSION_MIN_REQUIRED
+#import <Quartz/Quartz.h>
+#endif
+
 #import "TouchXML.h"
+#import "SimpleKMLColor.h"
 
 static NSString *const SimpleKMLErrorDomain = @"SimpleKMLErrorDomain";
 
