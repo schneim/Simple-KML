@@ -33,6 +33,7 @@
 //
 
 #import "SimpleKMLOverlay.h"
+#import "SimpleKMLColor.h"
 
 @implementation SimpleKMLOverlay
 
@@ -54,7 +55,7 @@
             {
                 NSString *colorString = [child stringValue];
                 
-                color = [SimpleKML colorForString:colorString];
+                color = [SimpleKMLColor colorWithHexRGBString:colorString];
             }
             else if ([[child name] isEqualToString:@"Icon"])
             {

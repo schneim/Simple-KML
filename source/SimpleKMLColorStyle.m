@@ -33,6 +33,7 @@
 //
 
 #import "SimpleKMLColorStyle.h"
+#import "SimpleKMLColor.h"
 
 @implementation SimpleKMLColorStyle
 
@@ -52,7 +53,7 @@
             {
                 NSString *colorString = [child stringValue];
                 
-                color = [SimpleKML colorForString:colorString];
+                color = [SimpleKMLColor colorWithHexRGBString:colorString];
             }
         }
     }

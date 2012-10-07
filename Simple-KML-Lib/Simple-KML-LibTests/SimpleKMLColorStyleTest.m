@@ -8,6 +8,8 @@
 
 #import "SimpleKMLColorStyleTest.h"
 #import "SimpleKMLColorStyle.h"
+#import "SimpleKMLColor.h"
+
 #import <CoreLocation/CoreLocation.h>
 #import <OCMock/OCMock.h>
 
@@ -74,7 +76,7 @@
     assertThat(colorStyle, notNilValue());
     
     assertThat(colorStyle.color  , notNilValue());
-    assertThat(colorStyle.color, equalTo([UIColor colorWithRed:(CGFloat)(221)/(CGFloat)(255)
+    assertThat(colorStyle.color, equalTo([SimpleKMLColor colorWithComponentRed:(CGFloat)(221)/(CGFloat)(255)
                                                                     green:(CGFloat)(204)/(CGFloat)(255)
                                                                      blue:(CGFloat)(187)/(CGFloat)(255)
                                                                     alpha:(CGFloat)(170)/(CGFloat)(255)]));

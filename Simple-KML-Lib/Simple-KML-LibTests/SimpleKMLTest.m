@@ -29,58 +29,6 @@
     [super tearDown];
 }
 
-- (void)testColorForStringDefault
-{
- 
-    UIColor* color =  [SimpleKML colorForString:@"#AABBCCDD"];
-    
-    UIColor* checkColor =  [UIColor colorWithCGColor:[SimpleKMLColor colorWithComponentRed:(CGFloat)(221)/(CGFloat)(255)
-                                                        green:(CGFloat)(204)/(CGFloat)(255)
-                                                         blue:(CGFloat)(187)/(CGFloat)(255)
-                                                        alpha:(CGFloat)(170)/(CGFloat)(255)].cgColor];
-        
-    assertThat(color,equalTo(checkColor));
-    
-    
-}
-
-- (void)testColorForStringWithoutPrefix
-{
-    
-    UIColor* color =  [SimpleKML colorForString:@"AABBCCDD"];
-    
-    UIColor* checkColor =  [UIColor colorWithCGColor:[SimpleKMLColor colorWithComponentRed:(CGFloat)(221)/(CGFloat)(255)
-                                                  green:(CGFloat)(204)/(CGFloat)(255)
-                                                   blue:(CGFloat)(187)/(CGFloat)(255)
-                                                  alpha:(CGFloat)(170)/(CGFloat)(255)].cgColor];
-    
-    assertThat(color,equalTo(checkColor));
-    
-    
-}
-
-
-- (void)testColorForStringTooLong
-{
-    
-    UIColor* color =  [SimpleKML colorForString:@"AABBCCDDEE"];
-    
-    
-    assertThat(color,nilValue());
-    
-    
-}
-
-- (void)testColorForStringTooShort
-{
-    
-    UIColor* color =  [SimpleKML colorForString:@"AABBCC"];
-    
-    
-    assertThat(color,nilValue());
-    
-    
-}
 
 
 @end

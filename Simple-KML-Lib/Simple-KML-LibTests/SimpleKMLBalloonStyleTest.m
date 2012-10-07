@@ -8,6 +8,7 @@
 
 #import "SimpleKMLBalloonStyleTest.h"
 #import "SimpleKMLBalloonStyle.h"
+#import "SimpleKMLColor.h"
 
 
 
@@ -68,10 +69,10 @@
     assertThat(ballonStyle, notNilValue());
     
     assertThat(ballonStyle.textColor        , notNilValue());
-    assertThat(ballonStyle.textColor, equalTo([UIColor blackColor]));
+    assertThat(ballonStyle.textColor, equalTo([SimpleKMLColor blackColor]));
     
     assertThat(ballonStyle.backgroundColor  , notNilValue());
-    assertThat(ballonStyle.backgroundColor, equalTo([UIColor whiteColor]));
+    assertThat(ballonStyle.backgroundColor, equalTo([SimpleKMLColor whiteColor]));
     
     
 }
@@ -94,10 +95,10 @@
     assertThat(ballonStyle, notNilValue());
     
     assertThat(ballonStyle.textColor        , notNilValue());
-    assertThat(ballonStyle.textColor, equalTo([UIColor blackColor]));
+    assertThat(ballonStyle.textColor, equalTo([SimpleKMLColor blackColor]));
     
     assertThat(ballonStyle.backgroundColor  , notNilValue());
-    assertThat(ballonStyle.backgroundColor, equalTo([UIColor colorWithRed:(CGFloat)(221)/(CGFloat)(255)
+    assertThat(ballonStyle.backgroundColor, equalTo([SimpleKMLColor colorWithComponentRed:(CGFloat)(221)/(CGFloat)(255)
                                                                                     green:(CGFloat)(204)/(CGFloat)(255)
                                                                                      blue:(CGFloat)(187)/(CGFloat)(255)
                                                                                     alpha:(CGFloat)(170)/(CGFloat)(255)]));
@@ -122,13 +123,13 @@
     assertThat(ballonStyle, notNilValue());
     
     assertThat(ballonStyle.textColor        , notNilValue());
-    assertThat(ballonStyle.textColor, equalTo([UIColor colorWithRed:(CGFloat)(221)/(CGFloat)(255)
+    assertThat(ballonStyle.textColor, equalTo([SimpleKMLColor colorWithComponentRed:(CGFloat)(221)/(CGFloat)(255)
                                                                       green:(CGFloat)(204)/(CGFloat)(255)
                                                                        blue:(CGFloat)(187)/(CGFloat)(255)
                                                                       alpha:(CGFloat)(170)/(CGFloat)(255)]));
     
     assertThat(ballonStyle.backgroundColor  , notNilValue());
-    assertThat(ballonStyle.backgroundColor,equalTo([UIColor whiteColor]));
+    assertThat(ballonStyle.backgroundColor,equalTo([SimpleKMLColor whiteColor]));
     
     
 }

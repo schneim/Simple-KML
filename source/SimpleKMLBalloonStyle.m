@@ -33,6 +33,7 @@
 //
 
 #import "SimpleKMLBalloonStyle.h"
+#import "SimpleKMLColor.h"
 
 @implementation SimpleKMLBalloonStyle
 
@@ -45,8 +46,8 @@
     
     if (self != nil)
     {
-        backgroundColor = [UIColor whiteColor];
-        textColor       = [UIColor blackColor];
+        backgroundColor = [SimpleKMLColor whiteColor];
+        textColor       = [SimpleKMLColor blackColor];
         
         for (CXMLNode *child in [node children])
         {
@@ -54,13 +55,13 @@
             {
                 NSString *colorString = [child stringValue];
              
-                backgroundColor = [SimpleKML colorForString:colorString];
+                backgroundColor = [SimpleKMLColor colorWithHexRGBString:colorString];
             }
             else if ([[child name] isEqualToString:@"textColor"])
             {
                 NSString *colorString = [child stringValue];
                 
-                textColor = [SimpleKML colorForString:colorString];
+                textColor = [SimpleKMLColor colorWithHexRGBString:colorString];
             }
         }
     }
