@@ -15,5 +15,7 @@
 @property id                    xmlChildMock;
 @property NSString*             colorString;
 
+- (void)clearCacheObjectForKey:(NSString *)key;
+
 @end
 

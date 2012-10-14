@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B298962162ADE33002FBA29 /* IconStyle.kmz in Resources */ = {isa = PBXBuildFile; fileRef = 9B298961162ADE33002FBA29 /* IconStyle.kmz */; };
+		9B298964162AF5CF002FBA29 /* invalid_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B298963162AF5CF002FBA29 /* invalid_image.png */; };
+		9B298967162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B298966162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m */; };
 		9B58373A16207CB80072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
 		9B58373B16207CDF0072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
 		9B58373E16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58373D16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m */; };
 		9B5837411621C70F0072D1B1 /* SimpleKMLColorStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5837401621C70F0072D1B1 /* SimpleKMLColorStyleTest.m */; };
 		9B5837441621C94E0072D1B1 /* SimpleKMLOverlayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5837431621C94E0072D1B1 /* SimpleKMLOverlayTest.m */; };
+		9B58375016229A370072D1B1 /* icon21.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B58374F16229A370072D1B1 /* icon21.png */; };
 		9B6191C5161983BE002981F5 /* SimpleKMLPointTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C4161983BE002981F5 /* SimpleKMLPointTest.m */; };
 		9B6191C81619AB7D002981F5 /* SimpleKMLObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C71619AB7D002981F5 /* SimpleKMLObjectTest.m */; };
 		9B6191DA1619B99B002981F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D91619B99B002981F5 /* Cocoa.framework */; };
@@ -174,6 +178,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B298961162ADE33002FBA29 /* IconStyle.kmz */ = {isa = PBXFileReference; lastKnownFileType = file; path = IconStyle.kmz; sourceTree = "<group>"; };
+		9B298963162AF5CF002FBA29 /* invalid_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invalid_image.png; sourceTree = "<group>"; };
+		9B298965162AF9A1002FBA29 /* SimpleKMLIconStyleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLIconStyleTest.h; sourceTree = "<group>"; };
+		9B298966162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLIconStyleTest.m; sourceTree = "<group>"; };
 		9B58373716207C790072D1B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9B58373916207CB80072D1B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9B58373C16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLBalloonStyleTest.h; sourceTree = "<group>"; };
@@ -182,6 +190,7 @@
 		9B5837401621C70F0072D1B1 /* SimpleKMLColorStyleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLColorStyleTest.m; sourceTree = "<group>"; };
 		9B5837421621C94E0072D1B1 /* SimpleKMLOverlayTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLOverlayTest.h; sourceTree = "<group>"; };
 		9B5837431621C94E0072D1B1 /* SimpleKMLOverlayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLOverlayTest.m; sourceTree = "<group>"; };
+		9B58374F16229A370072D1B1 /* icon21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon21.png; sourceTree = "<group>"; };
 		9B6191C3161983BE002981F5 /* SimpleKMLPointTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLPointTest.h; sourceTree = "<group>"; };
 		9B6191C4161983BE002981F5 /* SimpleKMLPointTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLPointTest.m; sourceTree = "<group>"; };
 		9B6191C61619AB7D002981F5 /* SimpleKMLObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLObjectTest.h; sourceTree = "<group>"; };
@@ -407,8 +416,6 @@
 		9BFE3AAB15D9A35E0041D8EE = {
 			isa = PBXGroup;
 			children = (
-				9B58373916207CB80072D1B1 /* CoreGraphics.framework */,
-				9B58373716207C790072D1B1 /* QuartzCore.framework */,
 				9BFE3ABB15D9A35E0041D8EE /* Simple-KML-Lib */,
 				9BFE3AD015D9A35E0041D8EE /* Simple-KML-LibTests */,
 				9B6191F41619B99B002981F5 /* Simple-KML-FrameworkTests */,
@@ -431,6 +438,8 @@
 		9BFE3AB815D9A35E0041D8EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B58373716207C790072D1B1 /* QuartzCore.framework */,
+				9B58373916207CB80072D1B1 /* CoreGraphics.framework */,
 				9B619238161A4630002981F5 /* libxml2.dylib */,
 				9BB422D815F73290004A984E /* libprofile_rt.dylib */,
 				9BFE3F8315D9AE6D0041D8EE /* libz.dylib */,
@@ -489,6 +498,8 @@
 				9B5837401621C70F0072D1B1 /* SimpleKMLColorStyleTest.m */,
 				9B5837421621C94E0072D1B1 /* SimpleKMLOverlayTest.h */,
 				9B5837431621C94E0072D1B1 /* SimpleKMLOverlayTest.m */,
+				9B298965162AF9A1002FBA29 /* SimpleKMLIconStyleTest.h */,
+				9B298966162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m */,
 			);
 			path = "Simple-KML-LibTests";
 			sourceTree = "<group>";
@@ -496,6 +507,9 @@
 		9BFE3AD115D9A35E0041D8EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9B298963162AF5CF002FBA29 /* invalid_image.png */,
+				9B298961162ADE33002FBA29 /* IconStyle.kmz */,
+				9B58374F16229A370072D1B1 /* icon21.png */,
 				9BFE3AD215D9A35E0041D8EE /* Simple-KML-LibTests-Info.plist */,
 				9BFE3AD315D9A35E0041D8EE /* InfoPlist.strings */,
 			);
@@ -870,6 +884,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BFE3AD515D9A35E0041D8EE /* InfoPlist.strings in Resources */,
+				9B58375016229A370072D1B1 /* icon21.png in Resources */,
+				9B298962162ADE33002FBA29 /* IconStyle.kmz in Resources */,
+				9B298964162AF5CF002FBA29 /* invalid_image.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1013,6 +1030,7 @@
 				9B58373E16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m in Sources */,
 				9B5837411621C70F0072D1B1 /* SimpleKMLColorStyleTest.m in Sources */,
 				9B5837441621C94E0072D1B1 /* SimpleKMLOverlayTest.m in Sources */,
+				9B298967162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
