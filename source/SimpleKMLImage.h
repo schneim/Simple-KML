@@ -6,30 +6,29 @@
 //  Copyright (c) 2012 jemm. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
 
 @interface SimpleKMLImage : NSObject
 {
 @private
-    CGImageRef image;
+    UIImage* image;
 }
 
-@property (nonatomic, readwrite, assign) CGImageRef image;
+@property (readonly) UIImage* image;
 
 /// @name Factory Methods
 /// @{
-+(SimpleKMLImage *)imageWithCGImage:(CGImageRef)anImage scale:(CGFloat)newScale;
-+(SimpleKMLImage *)imageWithCGImage:(CGImageRef)anImage;
-
++ (SimpleKMLImage *)imageWithData:(NSData *)data;
++ (SimpleKMLImage *)imageWithContentsOfFile:(NSString *)path;
 ///	@}
 
 /// @name Initialization
 /// @{
--(id)initWithCGImage:(CGImageRef)anImage scale:(CGFloat)newScale;
--(id)initWithCGImage:(CGImageRef)anImage;
 
 ///	@}
+
+
+- (NSData*) dataFromImage;
 
 
 @end

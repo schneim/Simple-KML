@@ -37,11 +37,12 @@
 #import "SimpleKMLFeature.h"
 
 @class SimpleKMLColor;
+@class SimpleKMLImage;
 
 @interface SimpleKMLOverlay : SimpleKMLFeature
 
 @property (nonatomic, strong, readonly) SimpleKMLColor *color;
-@property (nonatomic, strong, readonly) UIImage *icon;
+@property (nonatomic, strong, readonly) SimpleKMLImage *icon;
 
 // abstract class
 

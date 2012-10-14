@@ -34,6 +34,7 @@
 
 #import "SimpleKMLOverlay.h"
 #import "SimpleKMLColor.h"
+#import "SimpleKMLImage.h"
 
 @implementation SimpleKMLOverlay
 
@@ -122,7 +123,7 @@
                     }
                 }
                 
-                icon = [UIImage imageWithData:data];
+                icon = [SimpleKMLImage imageWithData:data];
                 
                 if ( ! icon)
                 {

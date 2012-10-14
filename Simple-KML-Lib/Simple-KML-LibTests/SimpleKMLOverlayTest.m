@@ -9,6 +9,7 @@
 #import "SimpleKMLOverlayTest.h"
 #import "SimpleKMLOverlay.h"
 #import "SimpleKMLColor.h"
+#import "SimpleKMLImage.h"
 
 #import <OCMock/OCMock.h>
 
@@ -123,8 +124,8 @@
     
     assertThat(overlay, notNilValue());
     assertThat(overlay.icon, notNilValue());
-    NSData* checkIconData = UIImagePNGRepresentation([UIImage imageWithContentsOfFile:[iconURL path]]);
-    NSData* overlayIconData =UIImagePNGRepresentation(overlay.icon);
+    NSData* checkIconData = [[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] dataFromImage];
+    NSData* overlayIconData =[overlay.icon dataFromImage];
   
     assertThat(checkIconData,equalTo(overlayIconData));
      
@@ -152,8 +153,8 @@
     
     assertThat(overlay, notNilValue());
     assertThat(overlay.icon, notNilValue());
-    NSData* checkIconData = UIImagePNGRepresentation([UIImage imageWithContentsOfFile:[iconURL path]]);
-    NSData* overlayIconData =UIImagePNGRepresentation(overlay.icon);
+    NSData* checkIconData = [[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] dataFromImage];
+    NSData* overlayIconData =[overlay.icon dataFromImage];
     
     assertThat(checkIconData,equalTo(overlayIconData));
     
@@ -185,8 +186,8 @@
     
     assertThat(overlay, notNilValue());
     assertThat(overlay.icon, notNilValue());
-    NSData* checkIconData = UIImagePNGRepresentation([UIImage imageWithContentsOfFile:[iconURL path]]);
-    NSData* overlayIconData =UIImagePNGRepresentation(overlay.icon);
+    NSData* checkIconData = [[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] dataFromImage];
+    NSData* overlayIconData =[overlay.icon dataFromImage];
     
     assertThat(checkIconData,equalTo(overlayIconData));
 }
