@@ -20,15 +20,20 @@
 /// @{
 + (SimpleKMLImage *)imageWithData:(NSData *)data;
 + (SimpleKMLImage *)imageWithContentsOfFile:(NSString *)path;
+- (SimpleKMLImage *)imageWithScale:(CGFloat)scale;
+
 ///	@}
 
 /// @name Initialization
 /// @{
-
+- (id)initWithContentsOfFile:(NSString *)path;
+- (id)initWithData:(NSData *)data;
+- (id)initWithImage:(SimpleKMLImage *)image scale:(CGFloat)scale;
 ///	@}
 
 
 - (NSData*) dataFromImage;
+
 
 
 @end

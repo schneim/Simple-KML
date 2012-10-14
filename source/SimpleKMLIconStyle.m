@@ -33,7 +33,7 @@
 //
 
 #import "SimpleKMLIconStyle.h"
-#import "SimpleKML_UIImage.h"
+#import "SimpleKMLImage.h"
 
 #define kSimpleKMLIconStyleDefaultScale    1.0f
 #define kSimpleKMLIconStyleDefaultHeading  0.0f
@@ -51,7 +51,7 @@
     {
         icon = nil;
         
-        UIImage *baseIcon   = nil;
+        SimpleKMLImage *baseIcon   = nil;
         CGFloat baseScale   = kSimpleKMLIconStyleDefaultScale;
         CGFloat baseHeading = kSimpleKMLIconStyleDefaultHeading;
         
@@ -125,7 +125,7 @@
                     }
                 }
                 
-                baseIcon = [UIImage imageWithData:data];
+                baseIcon = [SimpleKMLImage imageWithData:data];
                 
                 if ( ! baseIcon)
                 {
@@ -173,10 +173,8 @@
 #pragma mark TODO: rotate image according to heading
 #pragma mark TODO: read in parent ColorStyle color & auto-apply to icon
 
-        CGFloat newWidth  = kSimpleKMLIconStyleBaseIconSize * baseScale;
-        CGFloat newHeight = kSimpleKMLIconStyleBaseIconSize * baseScale;
         
-        icon = [baseIcon imageWithWidth:newWidth height:newHeight];
+        icon = [baseIcon imageWithScale:baseScale];
     }
     
     return self;

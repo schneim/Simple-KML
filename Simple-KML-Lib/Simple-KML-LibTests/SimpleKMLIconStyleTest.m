@@ -8,7 +8,7 @@
 
 #import "SimpleKMLIconStyleTest.h"
 #import "SimpleKMLIconStyle.h"
-#import "SimpleKML_UIImage.h"
+#import "SimpleKMLImage.h"
 #import <OCMock/OCMock.h>
 
 #define HC_SHORTHAND
@@ -82,8 +82,10 @@
     
     assertThat(iconStyle, notNilValue());
     assertThat(iconStyle.icon, notNilValue());
-    NSData* checkIconData = UIImagePNGRepresentation([UIImage imageWithContentsOfFile:[iconURL path]]);
-    NSData* iconStyleIconData =UIImagePNGRepresentation(iconStyle.icon);
+
+
+    NSData* checkIconData = [[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] dataFromImage];
+    NSData* iconStyleIconData =[iconStyle.icon dataFromImage];
     
     assertThat(checkIconData,equalTo(iconStyleIconData));
     
@@ -111,8 +113,8 @@
     
     assertThat(iconStyle, notNilValue());
     assertThat(iconStyle.icon, notNilValue());
-    NSData* checkIconData = UIImagePNGRepresentation([UIImage imageWithContentsOfFile:[iconURL path]]);
-    NSData* iconStyleIconData =UIImagePNGRepresentation(iconStyle.icon);
+    NSData* checkIconData = [[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] dataFromImage];
+    NSData* iconStyleIconData =[iconStyle.icon dataFromImage];
     
     assertThat(checkIconData,equalTo(iconStyleIconData));
     
@@ -145,8 +147,8 @@
     
     assertThat(iconStyle, notNilValue());
     assertThat(iconStyle.icon, notNilValue());
-    NSData* checkIconData = UIImagePNGRepresentation([UIImage imageWithContentsOfFile:[iconURL path]]);
-    NSData* iconStyleIconData =UIImagePNGRepresentation(iconStyle.icon);
+    NSData* checkIconData = [[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] dataFromImage];
+    NSData* iconStyleIconData =[iconStyle.icon dataFromImage];
     
     assertThat(checkIconData,equalTo(iconStyleIconData));
 }
@@ -281,9 +283,10 @@
     
     assertThat(iconStyle, notNilValue());
     assertThat(iconStyle.icon, notNilValue());
-    NSData* checkIconData = UIImagePNGRepresentation([[UIImage imageWithContentsOfFile:[iconURL path]] imageWithWidth:1.1f*32.0f height:1.1f*32.0f]);
-    NSData* iconStyleIconData =UIImagePNGRepresentation(iconStyle.icon);
     
+    NSData* checkIconData = [[[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] imageWithScale:1.1f] dataFromImage];
+    NSData* iconStyleIconData =[iconStyle.icon dataFromImage];
+
     assertThat(checkIconData,equalTo(iconStyleIconData));
     
     

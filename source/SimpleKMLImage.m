@@ -49,16 +49,40 @@
         return nil;
 }
 
+- (id)initWithImage:(SimpleKMLImage *) sourceImage scale:(CGFloat)scale
+{
+    self = [super init];
+    if (self) {
+        image = [UIImage imageWithCGImage:sourceImage.image.CGImage scale:scale orientation:sourceImage.image.imageOrientation];
+    }
+    
+    if (image != nil)
+        return self;
+    else
+        return nil;
+}
+
 
 + (SimpleKMLImage *)imageWithData:(NSData *)data
 {
     return [[SimpleKMLImage alloc] initWithData:data];
 }
 
+- (SimpleKMLImage *)imageWithScale:(CGFloat)scale
+{
+    return [[SimpleKMLImage alloc] initWithImage:self scale:scale];
+}
+
+
 + (SimpleKMLImage *)imageWithContentsOfFile:(NSString *)path
 {
     return [[SimpleKMLImage alloc] initWithContentsOfFile:path];
 }
+
+
+
+
+
 
 - (NSData*) dataFromImage
 {

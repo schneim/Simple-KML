@@ -36,8 +36,10 @@
 
 #import "SimpleKMLColorStyle.h"
 
+@class SimpleKMLImage;
+
 @interface SimpleKMLIconStyle : SimpleKMLColorStyle
 
-@property (nonatomic, strong, readonly) UIImage *icon; // automatically gets scale, heading, and parent color applied
+@property (nonatomic, strong, readonly) SimpleKMLImage *icon; // automatically gets scale, heading, and parent color applied
 
 @end

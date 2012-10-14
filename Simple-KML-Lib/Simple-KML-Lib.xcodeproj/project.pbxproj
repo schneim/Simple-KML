@@ -66,7 +66,6 @@
 		9BFE3ACF15D9A35E0041D8EE /* libSimple-KML-Lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AB615D9A35E0041D8EE /* libSimple-KML-Lib.a */; };
 		9BFE3AD515D9A35E0041D8EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BFE3AD315D9A35E0041D8EE /* InfoPlist.strings */; };
 		9BFE3B1215D9A3B80041D8EE /* SimpleKML.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE315D9A3B80041D8EE /* SimpleKML.m */; };
-		9BFE3B1315D9A3B80041D8EE /* SimpleKML_UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE515D9A3B80041D8EE /* SimpleKML_UIImage.m */; };
 		9BFE3B1415D9A3B80041D8EE /* SimpleKMLBalloonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE715D9A3B80041D8EE /* SimpleKMLBalloonStyle.m */; };
 		9BFE3B1515D9A3B80041D8EE /* SimpleKMLColorStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE915D9A3B80041D8EE /* SimpleKMLColorStyle.m */; };
 		9BFE3B1615D9A3B80041D8EE /* SimpleKMLContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AEB15D9A3B80041D8EE /* SimpleKMLContainer.m */; };
@@ -967,7 +966,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BFE3B1215D9A3B80041D8EE /* SimpleKML.m in Sources */,
-				9BFE3B1315D9A3B80041D8EE /* SimpleKML_UIImage.m in Sources */,
 				9BFE3B1415D9A3B80041D8EE /* SimpleKMLBalloonStyle.m in Sources */,
 				9BFE3B1515D9A3B80041D8EE /* SimpleKMLColorStyle.m in Sources */,
 				9BFE3B1615D9A3B80041D8EE /* SimpleKMLContainer.m in Sources */,
