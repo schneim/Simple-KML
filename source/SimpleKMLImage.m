@@ -71,7 +71,7 @@
 
     }
     
-    if (image != nil)
+    if (self.image != nil)
         return self;
     else
         return nil;
@@ -92,7 +92,7 @@
 
     }
     
-    if (image != nil)
+    if (self.image != nil)
         return self;
     else
         return nil;
@@ -113,7 +113,7 @@
         
     }
     
-    if (image != nil)
+    if (self.image != nil)
         return self;
     else
         return nil;

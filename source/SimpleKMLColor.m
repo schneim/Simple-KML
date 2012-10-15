@@ -29,9 +29,11 @@
     if ( nil == color ) {
         CGColorRef clear  = NULL;
         CGFloat values[4] = { 0.0, 0.0, 0.0, 0.0 };
-        clear = CGColorCreate(CGColorSpaceCreateDeviceRGB(), values);
+        CGColorSpaceRef colorspace = CGColorSpaceCreateDeviceRGB();
+        clear = CGColorCreate(colorspace, values);
         color = [[SimpleKMLColor alloc] initWithCGColor:clear];
         CGColorRelease(clear);
+        CGColorSpaceRelease(colorspace);
     }
     return color;
 }
@@ -239,10 +241,11 @@
 +(SimpleKMLColor *)colorWithGenericGray:(CGFloat)gray
 {
     CGFloat values[4]   = { gray, gray, gray, 1.0 };
-    CGColorRef colorRef = CGColorCreate(CGColorSpaceCreateDeviceRGB(), values);
+    CGColorSpaceRef colorspace = CGColorSpaceCreateDeviceRGB();
+    CGColorRef colorRef = CGColorCreate(colorspace, values);
     SimpleKMLColor *color     = [[SimpleKMLColor alloc] initWithCGColor:colorRef];
-    
     CGColorRelease(colorRef);
+    CGColorSpaceRelease(colorspace);
     return color;
 }
 
@@ -335,9 +338,11 @@
     colorComponents[1] = green;
     colorComponents[2] = blue;
     colorComponents[3] = alpha;
-    CGColorRef color = CGColorCreate(CGColorSpaceCreateDeviceRGB(), colorComponents);
+    CGColorSpaceRef colorspace = CGColorSpaceCreateDeviceRGB();
+    CGColorRef color = CGColorCreate(colorspace, colorComponents);
     self = [self initWithCGColor:color];
     CGColorRelease(color);
+    CGColorSpaceRelease(colorspace);
     return self;
 }
 

@@ -501,7 +501,6 @@
 		9BFE3AAB15D9A35E0041D8EE = {
 			isa = PBXGroup;
 			children = (
-				9B29897E162B6B7E002FBA29 /* libz.dylib */,
 				9B29897C162B6B2B002FBA29 /* CoreLocation.framework */,
 				9BFE3ABB15D9A35E0041D8EE /* Simple-KML-Lib */,
 				9BFE3AD015D9A35E0041D8EE /* Simple-KML-LibTests */,
@@ -528,9 +527,10 @@
 				9B58373716207C790072D1B1 /* QuartzCore.framework */,
 				9B58373916207CB80072D1B1 /* CoreGraphics.framework */,
 				9B619238161A4630002981F5 /* libxml2.dylib */,
-				9BB422D815F73290004A984E /* libprofile_rt.dylib */,
-				9BFE3F8315D9AE6D0041D8EE /* libz.dylib */,
 				9BFE3E6B15D9A4940041D8EE /* libxml2.dylib */,
+				9BB422D815F73290004A984E /* libprofile_rt.dylib */,
+				9B29897E162B6B7E002FBA29 /* libz.dylib */,
+				9BFE3F8315D9AE6D0041D8EE /* libz.dylib */,
 				9BFE3F8115D9AE160041D8EE /* CoreLocation.framework */,
 				9BFE3F7A15D9AC340041D8EE /* OCHamcrestIOS.framework */,
 				9BFE3AB915D9A35E0041D8EE /* Foundation.framework */,
@@ -897,7 +897,7 @@
 		9BFE3AAD15D9A35E0041D8EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0440;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = jemm;
 			};
 			buildConfigurationList = 9BFE3AB015D9A35E0041D8EE /* Build configuration list for PBXProject "Simple-KML-Lib" */;
