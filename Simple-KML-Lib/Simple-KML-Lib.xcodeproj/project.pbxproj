@@ -275,8 +275,6 @@
 		9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple-KML-FrameworkTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6191F61619B99B002981F5 /* Simple-KMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-KMLTests-Info.plist"; sourceTree = "<group>"; };
 		9B6191F81619B99B002981F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9B6191FA1619B99B002981F5 /* Simple_KMLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_KMLTests.h; sourceTree = "<group>"; };
-		9B6191FB1619B99B002981F5 /* Simple_KMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_KMLTests.m; sourceTree = "<group>"; };
 		9B619233161A454D002981F5 /* SimpleKMLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLImage.h; sourceTree = "<group>"; };
 		9B619234161A454D002981F5 /* SimpleKMLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLImage.m; sourceTree = "<group>"; };
 		9B619238161A4630002981F5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
@@ -481,8 +479,6 @@
 		9B6191F41619B99B002981F5 /* Simple-KML-FrameworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				9B6191FA1619B99B002981F5 /* Simple_KMLTests.h */,
-				9B6191FB1619B99B002981F5 /* Simple_KMLTests.m */,
 				9B6191F51619B99B002981F5 /* Supporting Files */,
 			);
 			name = "Simple-KML-FrameworkTests";
@@ -501,7 +497,6 @@
 		9BFE3AAB15D9A35E0041D8EE = {
 			isa = PBXGroup;
 			children = (
-				9B29897C162B6B2B002FBA29 /* CoreLocation.framework */,
 				9BFE3ABB15D9A35E0041D8EE /* Simple-KML-Lib */,
 				9BFE3AD015D9A35E0041D8EE /* Simple-KML-LibTests */,
 				9B6191F41619B99B002981F5 /* Simple-KML-FrameworkTests */,
@@ -524,6 +519,7 @@
 		9BFE3AB815D9A35E0041D8EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B29897C162B6B2B002FBA29 /* CoreLocation.framework */,
 				9B58373716207C790072D1B1 /* QuartzCore.framework */,
 				9B58373916207CB80072D1B1 /* CoreGraphics.framework */,
 				9B619238161A4630002981F5 /* libxml2.dylib */,
@@ -566,9 +562,9 @@
 		9BFE3AD015D9A35E0041D8EE /* Simple-KML-LibTests */ = {
 			isa = PBXGroup;
 			children = (
+				9BFE3AD115D9A35E0041D8EE /* Supporting Files */,
 				9BFE3F7D15D9ADA50041D8EE /* SimpleKMLLineStringTest.h */,
 				9BFE3F7E15D9ADA50041D8EE /* SimpleKMLLineStringTest.m */,
-				9BFE3AD115D9A35E0041D8EE /* Supporting Files */,
 				9B679712160F11D200AB779B /* SimpleKMLLinearRingTest.h */,
 				9B679713160F11D200AB779B /* SimpleKMLLinearRingTest.m */,
 				9B6191C3161983BE002981F5 /* SimpleKMLPointTest.h */,
