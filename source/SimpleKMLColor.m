@@ -268,13 +268,13 @@
         if (wholeValue > 255)
             return nil;
         
-        [parts addObject:[NSNumber numberWithFloat:((CGFloat)wholeValue / (CGFloat)255)]];
+        [parts addObject:[NSNumber numberWithDouble:((CGFloat)wholeValue / (CGFloat)255)]];
     }
     
-    SimpleKMLColor *color = [SimpleKMLColor colorWithComponentRed:[[parts objectAtIndex:3] floatValue]
-                                                            green:[[parts objectAtIndex:2] floatValue]
-                                                             blue:[[parts objectAtIndex:1] floatValue]
-                                                            alpha:[[parts objectAtIndex:0] floatValue]];
+    SimpleKMLColor *color = [SimpleKMLColor colorWithComponentRed:[[parts objectAtIndex:3] doubleValue]
+                                                            green:[[parts objectAtIndex:2] doubleValue]
+                                                             blue:[[parts objectAtIndex:1] doubleValue]
+                                                            alpha:[[parts objectAtIndex:0] doubleValue]];
     
     return color;
 }

@@ -83,10 +83,11 @@
     assertThat(iconStyle, notNilValue());
     assertThat(iconStyle.icon, notNilValue());
 
-
-    NSData* checkIconData = [[SimpleKMLImage imageWithContentsOfFile:[iconURL path]] dataFromImage];
+    SimpleKMLImage* checkIcon = [SimpleKMLImage imageWithContentsOfFile:[iconURL path]];
+    NSData* checkIconData = [checkIcon dataFromImage];
     NSData* iconStyleIconData =[iconStyle.icon dataFromImage];
     
+
     assertThat(checkIconData,equalTo(iconStyleIconData));
     
     

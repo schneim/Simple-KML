@@ -10,6 +10,46 @@
 		9B298962162ADE33002FBA29 /* IconStyle.kmz in Resources */ = {isa = PBXBuildFile; fileRef = 9B298961162ADE33002FBA29 /* IconStyle.kmz */; };
 		9B298964162AF5CF002FBA29 /* invalid_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B298963162AF5CF002FBA29 /* invalid_image.png */; };
 		9B298967162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B298966162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m */; };
+		9B29897D162B6B2B002FBA29 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B29897C162B6B2B002FBA29 /* CoreLocation.framework */; };
+		9B29897F162B6B7E002FBA29 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B29897E162B6B7E002FBA29 /* libz.dylib */; };
+		9B298980162B6BC7002FBA29 /* FileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B3815D9A3CA0041D8EE /* FileInZipInfo.m */; };
+		9B298981162B6BC7002FBA29 /* ZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B3A15D9A3CA0041D8EE /* ZipException.m */; };
+		9B298982162B6BC7002FBA29 /* ZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B3C15D9A3CA0041D8EE /* ZipFile.m */; };
+		9B298983162B6BC7002FBA29 /* ZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B3E15D9A3CA0041D8EE /* ZipReadStream.m */; };
+		9B298984162B6BC7002FBA29 /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B4015D9A3CA0041D8EE /* ZipWriteStream.m */; };
+		9B298985162B6BE3002FBA29 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B2E15D9A3CA0041D8EE /* ioapi.c */; };
+		9B298986162B6BE3002FBA29 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B3015D9A3CA0041D8EE /* mztools.c */; };
+		9B298987162B6BE3002FBA29 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B3215D9A3CA0041D8EE /* unzip.c */; };
+		9B298988162B6BE3002FBA29 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B3415D9A3CA0041D8EE /* zip.c */; };
+		9B298989162B6C17002FBA29 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6015D9A3CA0041D8EE /* CXMLDocument_CreationExtensions.m */; };
+		9B29898A162B6C17002FBA29 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6215D9A3CA0041D8EE /* CXMLNode_CreationExtensions.m */; };
+		9B29898B162B6C17002FBA29 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6415D9A3CA0041D8EE /* CXHTMLDocument.m */; };
+		9B29898C162B6C17002FBA29 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6615D9A3CA0041D8EE /* CXMLDocument.m */; };
+		9B29898D162B6C17002FBA29 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6815D9A3CA0041D8EE /* CXMLDocument_PrivateExtensions.m */; };
+		9B29898E162B6C17002FBA29 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6A15D9A3CA0041D8EE /* CXMLElement.m */; };
+		9B29898F162B6C17002FBA29 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6C15D9A3CA0041D8EE /* CXMLElement_CreationExtensions.m */; };
+		9B298990162B6C17002FBA29 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B6E15D9A3CA0041D8EE /* CXMLElement_ElementTreeExtensions.m */; };
+		9B298991162B6C17002FBA29 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B7015D9A3CA0041D8EE /* CXMLNamespaceNode.m */; };
+		9B298992162B6C17002FBA29 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B7215D9A3CA0041D8EE /* CXMLNode.m */; };
+		9B298993162B6C17002FBA29 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B7415D9A3CA0041D8EE /* CXMLNode_PrivateExtensions.m */; };
+		9B298994162B6C17002FBA29 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B7615D9A3CA0041D8EE /* CXMLNode_XPathExtensions.m */; };
+		9B298995162B6C17002FBA29 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B7915D9A3CA0041D8EE /* CTidy.m */; };
+		9B298996162B725D002FBA29 /* SimpleKMLLineStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3F7E15D9ADA50041D8EE /* SimpleKMLLineStringTest.m */; };
+		9B298997162B725D002FBA29 /* SimpleKMLLinearRingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B679713160F11D200AB779B /* SimpleKMLLinearRingTest.m */; };
+		9B298998162B725D002FBA29 /* SimpleKMLPointTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C4161983BE002981F5 /* SimpleKMLPointTest.m */; };
+		9B298999162B725D002FBA29 /* SimpleKMLObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C71619AB7D002981F5 /* SimpleKMLObjectTest.m */; };
+		9B29899A162B725D002FBA29 /* SimpleKMLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61923B161A4A3C002981F5 /* SimpleKMLTest.m */; };
+		9B29899B162B725D002FBA29 /* SimpleKMLColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD34C0B16202DB70066A937 /* SimpleKMLColorTest.m */; };
+		9B29899C162B725D002FBA29 /* SimpleKMLBalloonStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58373D16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m */; };
+		9B29899D162B725D002FBA29 /* SimpleKMLColorStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5837401621C70F0072D1B1 /* SimpleKMLColorStyleTest.m */; };
+		9B29899E162B725D002FBA29 /* SimpleKMLOverlayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5837431621C94E0072D1B1 /* SimpleKMLOverlayTest.m */; };
+		9B29899F162B725D002FBA29 /* SimpleKMLIconStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B298966162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m */; };
+		9B2989A0162B72F7002FBA29 /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3F6E15D9A8A50041D8EE /* OCMock.framework */; };
+		9B2989BD162B7404002FBA29 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2989B6162B73E1002FBA29 /* OCHamcrest.framework */; };
+		9B2989BE162B743C002FBA29 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B29897C162B6B2B002FBA29 /* CoreLocation.framework */; };
+		9B2989BF162B7637002FBA29 /* invalid_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B298963162AF5CF002FBA29 /* invalid_image.png */; };
+		9B2989C0162B7637002FBA29 /* IconStyle.kmz in Resources */ = {isa = PBXBuildFile; fileRef = 9B298961162ADE33002FBA29 /* IconStyle.kmz */; };
+		9B2989C1162B7637002FBA29 /* icon21.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B58374F16229A370072D1B1 /* icon21.png */; };
 		9B58373A16207CB80072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
 		9B58373B16207CDF0072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
 		9B58373E16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58373D16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m */; };
@@ -24,7 +64,6 @@
 		9B6191F01619B99B002981F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D91619B99B002981F5 /* Cocoa.framework */; };
 		9B6191F31619B99B002981F5 /* Simple-KML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D81619B99A002981F5 /* Simple-KML.framework */; };
 		9B6191F91619B99B002981F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B6191F71619B99B002981F5 /* InfoPlist.strings */; };
-		9B6191FC1619B99B002981F5 /* Simple_KMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191FB1619B99B002981F5 /* Simple_KMLTests.m */; };
 		9B6192041619BE40002981F5 /* SimpleKML.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE315D9A3B80041D8EE /* SimpleKML.m */; };
 		9B6192081619BE40002981F5 /* SimpleKMLBalloonStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE715D9A3B80041D8EE /* SimpleKMLBalloonStyle.m */; };
 		9B61920A1619BE40002981F5 /* SimpleKMLColorStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3AE915D9A3B80041D8EE /* SimpleKMLColorStyle.m */; };
@@ -120,6 +159,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9B2989B5162B73E1002FBA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B2989AB162B73E1002FBA29 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 087601E213440806001B439B;
+			remoteInfo = OCHamcrest;
+		};
+		9B2989B7162B73E1002FBA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B2989AB162B73E1002FBA29 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 087601F713440807001B439B;
+			remoteInfo = OCHamcrestTests;
+		};
+		9B2989B9162B73E1002FBA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B2989AB162B73E1002FBA29 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 081BEE621345979F003F846A;
+			remoteInfo = libochamcrest;
+		};
+		9B2989BB162B73E1002FBA29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B2989AB162B73E1002FBA29 /* OCHamcrest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 081BEE6C1345979F003F846A;
+			remoteInfo = libochamcrestTests;
+		};
 		9B6191F11619B99B002981F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9BFE3AAD15D9A35E0041D8EE /* Project object */;
@@ -181,6 +248,9 @@
 		9B298963162AF5CF002FBA29 /* invalid_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invalid_image.png; sourceTree = "<group>"; };
 		9B298965162AF9A1002FBA29 /* SimpleKMLIconStyleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLIconStyleTest.h; sourceTree = "<group>"; };
 		9B298966162AF9A1002FBA29 /* SimpleKMLIconStyleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleKMLIconStyleTest.m; sourceTree = "<group>"; };
+		9B29897C162B6B2B002FBA29 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		9B29897E162B6B7E002FBA29 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		9B2989AB162B73E1002FBA29 /* OCHamcrest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCHamcrest.xcodeproj; path = OCHamcrest/Source/OCHamcrest.xcodeproj; sourceTree = "<group>"; };
 		9B58373716207C790072D1B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9B58373916207CB80072D1B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9B58373C16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLBalloonStyleTest.h; sourceTree = "<group>"; };
@@ -202,7 +272,7 @@
 		9B6191E11619B99B002981F5 /* Simple-KML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple-KML-Info.plist"; path = "../Simple-KML/Simple-KML-Info.plist"; sourceTree = "<group>"; };
 		9B6191E31619B99B002981F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B6191E51619B99B002981F5 /* Simple-KML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Simple-KML-Prefix.pch"; path = "../Simple-KML/Simple-KML-Prefix.pch"; sourceTree = "<group>"; };
-		9B6191EE1619B99B002981F5 /* Simple-KMLTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Simple-KMLTests.octest"; path = "Simple-KML-FrameworkTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple-KML-FrameworkTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6191F61619B99B002981F5 /* Simple-KMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-KMLTests-Info.plist"; sourceTree = "<group>"; };
 		9B6191F81619B99B002981F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B6191FA1619B99B002981F5 /* Simple_KMLTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_KMLTests.h; sourceTree = "<group>"; };
@@ -336,6 +406,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B29897F162B6B7E002FBA29 /* libz.dylib in Frameworks */,
+				9B29897D162B6B2B002FBA29 /* CoreLocation.framework in Frameworks */,
 				9B619239161A4631002981F5 /* libxml2.dylib in Frameworks */,
 				9B6191DA1619B99B002981F5 /* Cocoa.framework in Frameworks */,
 			);
@@ -345,6 +417,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2989BE162B743C002FBA29 /* CoreLocation.framework in Frameworks */,
+				9B2989BD162B7404002FBA29 /* OCHamcrest.framework in Frameworks */,
+				9B2989A0162B72F7002FBA29 /* OCMock.framework in Frameworks */,
 				9B6191EF1619B99B002981F5 /* SenTestingKit.framework in Frameworks */,
 				9B6191F01619B99B002981F5 /* Cocoa.framework in Frameworks */,
 				9B6191F31619B99B002981F5 /* Simple-KML.framework in Frameworks */,
@@ -382,6 +457,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B2989AC162B73E1002FBA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2989B6162B73E1002FBA29 /* OCHamcrest.framework */,
+				9B2989B8162B73E1002FBA29 /* OCHamcrestTests.octest */,
+				9B2989BA162B73E1002FBA29 /* libochamcrest.a */,
+				9B2989BC162B73E1002FBA29 /* libochamcrestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		9B6191DB1619B99B002981F5 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -415,6 +501,8 @@
 		9BFE3AAB15D9A35E0041D8EE = {
 			isa = PBXGroup;
 			children = (
+				9B29897E162B6B7E002FBA29 /* libz.dylib */,
+				9B29897C162B6B2B002FBA29 /* CoreLocation.framework */,
 				9BFE3ABB15D9A35E0041D8EE /* Simple-KML-Lib */,
 				9BFE3AD015D9A35E0041D8EE /* Simple-KML-LibTests */,
 				9B6191F41619B99B002981F5 /* Simple-KML-FrameworkTests */,
@@ -429,7 +517,7 @@
 				9BFE3AB615D9A35E0041D8EE /* libSimple-KML-Lib.a */,
 				9BFE3AC715D9A35E0041D8EE /* Simple-KML-LibTests.octest */,
 				9B6191D81619B99A002981F5 /* Simple-KML.framework */,
-				9B6191EE1619B99B002981F5 /* Simple-KMLTests.octest */,
+				9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -709,6 +797,7 @@
 		9BFE3F7315D9A8B00041D8EE /* OCHamcrest */ = {
 			isa = PBXGroup;
 			children = (
+				9B2989AB162B73E1002FBA29 /* OCHamcrest.xcodeproj */,
 			);
 			name = OCHamcrest;
 			sourceTree = "<group>";
@@ -762,7 +851,7 @@
 			);
 			name = "Simple-KML-FrameworkTests";
 			productName = "Simple-KMLTests";
-			productReference = 9B6191EE1619B99B002981F5 /* Simple-KMLTests.octest */;
+			productReference = 9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 		9BFE3AB515D9A35E0041D8EE /* Simple-KML-Lib */ = {
@@ -823,6 +912,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 9B2989AC162B73E1002FBA29 /* Products */;
+					ProjectRef = 9B2989AB162B73E1002FBA29 /* OCHamcrest.xcodeproj */;
+				},
+				{
 					ProductGroup = 9BFE3F6515D9A8A50041D8EE /* Products */;
 					ProjectRef = 9BFE3F6415D9A8A50041D8EE /* OCMock.xcodeproj */;
 				},
@@ -838,6 +931,34 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		9B2989B6162B73E1002FBA29 /* OCHamcrest.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCHamcrest.framework;
+			remoteRef = 9B2989B5162B73E1002FBA29 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B2989B8162B73E1002FBA29 /* OCHamcrestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCHamcrestTests.octest;
+			remoteRef = 9B2989B7162B73E1002FBA29 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B2989BA162B73E1002FBA29 /* libochamcrest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libochamcrest.a;
+			remoteRef = 9B2989B9162B73E1002FBA29 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B2989BC162B73E1002FBA29 /* libochamcrestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libochamcrestTests.octest;
+			remoteRef = 9B2989BB162B73E1002FBA29 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		9BFE3F6E15D9A8A50041D8EE /* OCMock.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -874,6 +995,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2989BF162B7637002FBA29 /* invalid_image.png in Resources */,
+				9B2989C0162B7637002FBA29 /* IconStyle.kmz in Resources */,
+				9B2989C1162B7637002FBA29 /* icon21.png in Resources */,
 				9B6191F91619B99B002981F5 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -925,6 +1049,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B298989162B6C17002FBA29 /* CXMLDocument_CreationExtensions.m in Sources */,
+				9B29898A162B6C17002FBA29 /* CXMLNode_CreationExtensions.m in Sources */,
+				9B29898B162B6C17002FBA29 /* CXHTMLDocument.m in Sources */,
+				9B29898C162B6C17002FBA29 /* CXMLDocument.m in Sources */,
+				9B29898D162B6C17002FBA29 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				9B29898E162B6C17002FBA29 /* CXMLElement.m in Sources */,
+				9B29898F162B6C17002FBA29 /* CXMLElement_CreationExtensions.m in Sources */,
+				9B298990162B6C17002FBA29 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				9B298991162B6C17002FBA29 /* CXMLNamespaceNode.m in Sources */,
+				9B298992162B6C17002FBA29 /* CXMLNode.m in Sources */,
+				9B298993162B6C17002FBA29 /* CXMLNode_PrivateExtensions.m in Sources */,
+				9B298994162B6C17002FBA29 /* CXMLNode_XPathExtensions.m in Sources */,
+				9B298995162B6C17002FBA29 /* CTidy.m in Sources */,
+				9B298985162B6BE3002FBA29 /* ioapi.c in Sources */,
+				9B298986162B6BE3002FBA29 /* mztools.c in Sources */,
+				9B298987162B6BE3002FBA29 /* unzip.c in Sources */,
+				9B298988162B6BE3002FBA29 /* zip.c in Sources */,
+				9B298980162B6BC7002FBA29 /* FileInZipInfo.m in Sources */,
+				9B298981162B6BC7002FBA29 /* ZipException.m in Sources */,
+				9B298982162B6BC7002FBA29 /* ZipFile.m in Sources */,
+				9B298983162B6BC7002FBA29 /* ZipReadStream.m in Sources */,
+				9B298984162B6BC7002FBA29 /* ZipWriteStream.m in Sources */,
 				9B6192041619BE40002981F5 /* SimpleKML.m in Sources */,
 				9B6192081619BE40002981F5 /* SimpleKMLBalloonStyle.m in Sources */,
 				9B61920A1619BE40002981F5 /* SimpleKMLColorStyle.m in Sources */,
@@ -957,7 +1103,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B6191FC1619B99B002981F5 /* Simple_KMLTests.m in Sources */,
+				9B298996162B725D002FBA29 /* SimpleKMLLineStringTest.m in Sources */,
+				9B298997162B725D002FBA29 /* SimpleKMLLinearRingTest.m in Sources */,
+				9B298998162B725D002FBA29 /* SimpleKMLPointTest.m in Sources */,
+				9B298999162B725D002FBA29 /* SimpleKMLObjectTest.m in Sources */,
+				9B29899A162B725D002FBA29 /* SimpleKMLTest.m in Sources */,
+				9B29899B162B725D002FBA29 /* SimpleKMLColorTest.m in Sources */,
+				9B29899C162B725D002FBA29 /* SimpleKMLBalloonStyleTest.m in Sources */,
+				9B29899D162B725D002FBA29 /* SimpleKMLColorStyleTest.m in Sources */,
+				9B29899E162B725D002FBA29 /* SimpleKMLOverlayTest.m in Sources */,
+				9B29899F162B725D002FBA29 /* SimpleKMLIconStyleTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1149,6 +1304,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Simple-KMLTests/Simple-KMLTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1171,6 +1327,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Simple-KMLTests/Simple-KMLTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -6,15 +6,36 @@
 //  Copyright (c) 2012 jemm. All rights reserved.
 //
 
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
 #import <UIKit/UIKit.h>
+
 
 @interface SimpleKMLImage : NSObject
 {
 @private
+
     UIImage* image;
+
 }
 
 @property (readonly) UIImage* image;
+#endif
+
+
+#if __MAC_OS_X_VERSION_MIN_REQUIRED
+
+
+@interface SimpleKMLImage : NSObject
+{
+@private
+    
+    NSImage* image;
+    
+}
+
+@property (readonly) NSImage* image;
+#endif
+
 
 /// @name Factory Methods
 /// @{

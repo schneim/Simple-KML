@@ -8,6 +8,39 @@
 
 #import "SimpleKMLImage.h"
 
+#if __MAC_OS_X_VERSION_MIN_REQUIRED
+@interface NSImage (SimpleKML)
+- (NSImage *)imageWithScale:(CGFloat)scale;
+
+@end
+
+
+@implementation NSImage  (SimpleKML)
+
+#pragma mark Density Adjustments
+
+- (NSImage *)imageWithScale:(CGFloat)scale
+{
+    NSParameterAssert(scale > 0);
+    
+    NSInteger width = 0;
+    NSInteger height = 0;
+    
+    for (NSImageRep *representation in self.representations) {
+        if (representation.pixelsWide * representation.pixelsHigh > width * height) {
+            width = representation.pixelsWide;
+            height = representation.pixelsHigh;
+        }
+    }
+    
+    NSImage *newImage = [self copy];
+    newImage.size = CGSizeMake(width * scale, height * scale);
+    
+    return newImage;
+}
+
+@end
+#endif
 
 
 @implementation SimpleKMLImage
@@ -27,7 +60,15 @@
 {
     self = [super init];
     if (self) {
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
         image = [UIImage imageWithData:data];
+#endif
+        
+        
+#if __MAC_OS_X_VERSION_MIN_REQUIRED
+        image = [[NSImage alloc ]initWithData:data];
+#endif
+
     }
     
     if (image != nil)
@@ -40,7 +81,15 @@
 {
     self = [super init];
     if (self) {
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
         image = [UIImage imageWithContentsOfFile:path];
+#endif
+        
+        
+#if __MAC_OS_X_VERSION_MIN_REQUIRED
+        image = [[NSImage alloc ]initWithContentsOfFile:path];
+#endif
+
     }
     
     if (image != nil)
@@ -53,7 +102,15 @@
 {
     self = [super init];
     if (self) {
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
         image = [UIImage imageWithCGImage:sourceImage.image.CGImage scale:scale orientation:sourceImage.image.imageOrientation];
+#endif
+        
+#if __MAC_OS_X_VERSION_MIN_REQUIRED
+        image = [sourceImage.image imageWithScale:scale];
+#endif
+
+        
     }
     
     if (image != nil)
@@ -86,7 +143,14 @@
 
 - (NSData*) dataFromImage
 {
+    
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
     return [NSKeyedArchiver archivedDataWithRootObject:self.image];
+#endif
+    
+#if __MAC_OS_X_VERSION_MIN_REQUIRED
+    return [image TIFFRepresentation];
+#endif
 }
 
 
