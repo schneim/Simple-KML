@@ -50,6 +50,43 @@
 		9B2989BF162B7637002FBA29 /* invalid_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B298963162AF5CF002FBA29 /* invalid_image.png */; };
 		9B2989C0162B7637002FBA29 /* IconStyle.kmz in Resources */ = {isa = PBXBuildFile; fileRef = 9B298961162ADE33002FBA29 /* IconStyle.kmz */; };
 		9B2989C1162B7637002FBA29 /* icon21.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B58374F16229A370072D1B1 /* icon21.png */; };
+		9B298A8F162CAECD002FBA29 /* SimpleKML.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AE215D9A3B80041D8EE /* SimpleKML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A90162CAECD002FBA29 /* SimpleKMLBalloonStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AE615D9A3B80041D8EE /* SimpleKMLBalloonStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A91162CAECD002FBA29 /* SimpleKMLColorStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AE815D9A3B80041D8EE /* SimpleKMLColorStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A92162CAECD002FBA29 /* SimpleKMLContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AEA15D9A3B80041D8EE /* SimpleKMLContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A93162CAECD002FBA29 /* SimpleKMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AEC15D9A3B80041D8EE /* SimpleKMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A94162CAECD002FBA29 /* SimpleKMLFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AEE15D9A3B80041D8EE /* SimpleKMLFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A95162CAECD002FBA29 /* SimpleKMLFolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AF015D9A3B80041D8EE /* SimpleKMLFolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A96162CAECD002FBA29 /* SimpleKMLGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AF215D9A3B80041D8EE /* SimpleKMLGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A97162CAECD002FBA29 /* SimpleKMLGroundOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AF415D9A3B80041D8EE /* SimpleKMLGroundOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A98162CAECD002FBA29 /* SimpleKMLIconStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AF615D9A3B80041D8EE /* SimpleKMLIconStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A99162CAECD002FBA29 /* SimpleKMLLinearRing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AF815D9A3B80041D8EE /* SimpleKMLLinearRing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A9A162CAECD002FBA29 /* SimpleKMLLineString.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AFA15D9A3B80041D8EE /* SimpleKMLLineString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A9B162CAECD002FBA29 /* SimpleKMLLineStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AFC15D9A3B80041D8EE /* SimpleKMLLineStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A9C162CAECD002FBA29 /* SimpleKMLMultiGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3AFE15D9A3B80041D8EE /* SimpleKMLMultiGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A9D162CAECD002FBA29 /* SimpleKMLOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0215D9A3B80041D8EE /* SimpleKMLOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A9E162CAECD002FBA29 /* SimpleKMLPlacemark.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0415D9A3B80041D8EE /* SimpleKMLPlacemark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298A9F162CAECD002FBA29 /* SimpleKMLPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0615D9A3B80041D8EE /* SimpleKMLPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA0162CAECD002FBA29 /* SimpleKMLPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0815D9A3B80041D8EE /* SimpleKMLPolygon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA1162CAECD002FBA29 /* SimpleKMLPolyStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0A15D9A3B80041D8EE /* SimpleKMLPolyStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA2162CAECD002FBA29 /* SimpleKMLStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0C15D9A3B80041D8EE /* SimpleKMLStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA3162CAECD002FBA29 /* SimpleKMLStyleSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0E15D9A3B80041D8EE /* SimpleKMLStyleSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA4162CAECD002FBA29 /* SimpleKMLSubStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B1015D9A3B80041D8EE /* SimpleKMLSubStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA7162CB2DF002FBA29 /* SimpleKMLObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B0015D9A3B80041D8EE /* SimpleKMLObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA8162CB328002FBA29 /* CXMLDocument_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B5F15D9A3CA0041D8EE /* CXMLDocument_CreationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AA9162CB328002FBA29 /* CXMLNode_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6115D9A3CA0041D8EE /* CXMLNode_CreationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AAA162CB328002FBA29 /* CXHTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6315D9A3CA0041D8EE /* CXHTMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AAB162CB328002FBA29 /* CXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6515D9A3CA0041D8EE /* CXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AAC162CB328002FBA29 /* CXMLDocument_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6715D9A3CA0041D8EE /* CXMLDocument_PrivateExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AAD162CB328002FBA29 /* CXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6915D9A3CA0041D8EE /* CXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AAE162CB328002FBA29 /* CXMLElement_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6B15D9A3CA0041D8EE /* CXMLElement_CreationExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AAF162CB328002FBA29 /* CXMLElement_ElementTreeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6D15D9A3CA0041D8EE /* CXMLElement_ElementTreeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AB0162CB328002FBA29 /* CXMLNamespaceNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B6F15D9A3CA0041D8EE /* CXMLNamespaceNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AB1162CB328002FBA29 /* CXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B7115D9A3CA0041D8EE /* CXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AB2162CB328002FBA29 /* CXMLNode_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B7315D9A3CA0041D8EE /* CXMLNode_PrivateExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AB3162CB328002FBA29 /* CXMLNode_XPathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B7515D9A3CA0041D8EE /* CXMLNode_XPathExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AB4162CB328002FBA29 /* CTidy.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B7815D9A3CA0041D8EE /* CTidy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B298AB5162CB328002FBA29 /* TouchXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFE3B7A15D9A3CA0041D8EE /* TouchXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B58373A16207CB80072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
 		9B58373B16207CDF0072D1B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B58373916207CB80072D1B1 /* CoreGraphics.framework */; };
 		9B58373E16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B58373D16216FC00072D1B1 /* SimpleKMLBalloonStyleTest.m */; };
@@ -87,12 +124,12 @@
 		9B61922E1619BE40002981F5 /* SimpleKMLStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0D15D9A3B80041D8EE /* SimpleKMLStyle.m */; };
 		9B6192301619BE40002981F5 /* SimpleKMLStyleSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B0F15D9A3B80041D8EE /* SimpleKMLStyleSelector.m */; };
 		9B6192321619BE40002981F5 /* SimpleKMLSubStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE3B1115D9A3B80041D8EE /* SimpleKMLSubStyle.m */; };
-		9B619235161A454D002981F5 /* SimpleKMLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B619233161A454D002981F5 /* SimpleKMLImage.h */; };
+		9B619235161A454D002981F5 /* SimpleKMLImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B619233161A454D002981F5 /* SimpleKMLImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B619236161A454D002981F5 /* SimpleKMLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619234161A454D002981F5 /* SimpleKMLImage.m */; };
 		9B619237161A454D002981F5 /* SimpleKMLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619234161A454D002981F5 /* SimpleKMLImage.m */; };
 		9B619239161A4631002981F5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B619238161A4630002981F5 /* libxml2.dylib */; };
 		9B61923C161A4A3C002981F5 /* SimpleKMLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B61923B161A4A3C002981F5 /* SimpleKMLTest.m */; };
-		9B619249161C50EC002981F5 /* SimpleKMLColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B619247161C50EB002981F5 /* SimpleKMLColor.h */; };
+		9B619249161C50EC002981F5 /* SimpleKMLColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B619247161C50EB002981F5 /* SimpleKMLColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B61924A161C50EC002981F5 /* SimpleKMLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619248161C50EC002981F5 /* SimpleKMLColor.m */; };
 		9B61924B161C50EC002981F5 /* SimpleKMLColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B619248161C50EC002981F5 /* SimpleKMLColor.m */; };
 		9B679714160F11D200AB779B /* SimpleKMLLinearRingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B679713160F11D200AB779B /* SimpleKMLLinearRingTest.m */; };
@@ -807,6 +844,43 @@
 			files = (
 				9B619235161A454D002981F5 /* SimpleKMLImage.h in Headers */,
 				9B619249161C50EC002981F5 /* SimpleKMLColor.h in Headers */,
+				9B298A8F162CAECD002FBA29 /* SimpleKML.h in Headers */,
+				9B298A90162CAECD002FBA29 /* SimpleKMLBalloonStyle.h in Headers */,
+				9B298A91162CAECD002FBA29 /* SimpleKMLColorStyle.h in Headers */,
+				9B298A92162CAECD002FBA29 /* SimpleKMLContainer.h in Headers */,
+				9B298A93162CAECD002FBA29 /* SimpleKMLDocument.h in Headers */,
+				9B298A94162CAECD002FBA29 /* SimpleKMLFeature.h in Headers */,
+				9B298A95162CAECD002FBA29 /* SimpleKMLFolder.h in Headers */,
+				9B298A96162CAECD002FBA29 /* SimpleKMLGeometry.h in Headers */,
+				9B298A97162CAECD002FBA29 /* SimpleKMLGroundOverlay.h in Headers */,
+				9B298A98162CAECD002FBA29 /* SimpleKMLIconStyle.h in Headers */,
+				9B298A99162CAECD002FBA29 /* SimpleKMLLinearRing.h in Headers */,
+				9B298A9A162CAECD002FBA29 /* SimpleKMLLineString.h in Headers */,
+				9B298A9B162CAECD002FBA29 /* SimpleKMLLineStyle.h in Headers */,
+				9B298A9C162CAECD002FBA29 /* SimpleKMLMultiGeometry.h in Headers */,
+				9B298A9D162CAECD002FBA29 /* SimpleKMLOverlay.h in Headers */,
+				9B298A9E162CAECD002FBA29 /* SimpleKMLPlacemark.h in Headers */,
+				9B298A9F162CAECD002FBA29 /* SimpleKMLPoint.h in Headers */,
+				9B298AA0162CAECD002FBA29 /* SimpleKMLPolygon.h in Headers */,
+				9B298AA1162CAECD002FBA29 /* SimpleKMLPolyStyle.h in Headers */,
+				9B298AA7162CB2DF002FBA29 /* SimpleKMLObject.h in Headers */,
+				9B298AA2162CAECD002FBA29 /* SimpleKMLStyle.h in Headers */,
+				9B298AA3162CAECD002FBA29 /* SimpleKMLStyleSelector.h in Headers */,
+				9B298AA4162CAECD002FBA29 /* SimpleKMLSubStyle.h in Headers */,
+				9B298AA8162CB328002FBA29 /* CXMLDocument_CreationExtensions.h in Headers */,
+				9B298AA9162CB328002FBA29 /* CXMLNode_CreationExtensions.h in Headers */,
+				9B298AAA162CB328002FBA29 /* CXHTMLDocument.h in Headers */,
+				9B298AAB162CB328002FBA29 /* CXMLDocument.h in Headers */,
+				9B298AAC162CB328002FBA29 /* CXMLDocument_PrivateExtensions.h in Headers */,
+				9B298AAD162CB328002FBA29 /* CXMLElement.h in Headers */,
+				9B298AAE162CB328002FBA29 /* CXMLElement_CreationExtensions.h in Headers */,
+				9B298AAF162CB328002FBA29 /* CXMLElement_ElementTreeExtensions.h in Headers */,
+				9B298AB0162CB328002FBA29 /* CXMLNamespaceNode.h in Headers */,
+				9B298AB1162CB328002FBA29 /* CXMLNode.h in Headers */,
+				9B298AB2162CB328002FBA29 /* CXMLNode_PrivateExtensions.h in Headers */,
+				9B298AB3162CB328002FBA29 /* CXMLNode_XPathExtensions.h in Headers */,
+				9B298AB4162CB328002FBA29 /* CTidy.h in Headers */,
+				9B298AB5162CB328002FBA29 /* TouchXML.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1252,6 +1326,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Simple-KML/Simple-KML-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1281,6 +1356,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "Simple-KML/Simple-KML-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;

@@ -10,3 +10,6 @@
 [submodule "vendor/OCHamcrest"]
 	path = vendor/OCHamcrest
 	url = https://github.com/hamcrest/OCHamcrest.git
+[submodule "sample_MacOSX/macmapkit"]
+	path = sample_MacOSX/macmapkit
+url=https://github.com/schneim/MacMapKit.git
