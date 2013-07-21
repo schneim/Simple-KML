@@ -51,4 +51,6 @@
 @property (nonatomic, strong, readonly) SimpleKMLLineString *lineString;
 @property (nonatomic, strong, readonly) SimpleKMLLinearRing *linearRing;
 
+- (NSArray*) lineStrings;
+
 @end

@@ -33,6 +33,7 @@
 // 
 
 #import "SimpleKMLMultiGeometry.h"
+#import "SimpleKMLLineString.h"
 
 @implementation SimpleKMLMultiGeometry
 
@@ -76,5 +77,13 @@
 {
     return [NSArray arrayWithArray:geometry];
 }
+
+
+- (NSArray*) lineStrings
+{
+    NSPredicate *lineStringPredicate = [NSPredicate predicateWithFormat:@"self isKindOfClass: %@",[SimpleKMLLineString class]];
+    return [self.geometry filteredArrayUsingPredicate:lineStringPredicate];
+}
+
 
 @end

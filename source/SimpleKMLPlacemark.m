@@ -123,4 +123,22 @@
     return nil;
 }
 
+
+- (NSArray*) lineStrings
+{
+    if (self.geometry)
+    {
+        if ([self.geometry isKindOfClass:[SimpleKMLMultiGeometry class]])
+            return [(SimpleKMLMultiGeometry*) geometry lineStrings];
+        else if ([self.geometry isKindOfClass:[SimpleKMLLineString class]])
+            return [NSArray arrayWithObject:geometry];
+    }
+    return nil;
+}
+
+
+
+
+
+
 @end

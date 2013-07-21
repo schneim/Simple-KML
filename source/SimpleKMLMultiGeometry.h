@@ -44,4 +44,6 @@
 @property (nonatomic, strong, readonly) NSArray *geometry;
 @property (nonatomic, strong, readonly) SimpleKMLGeometry *firstGeometry;
 
+- (NSArray*) lineStrings;
+
 @end
