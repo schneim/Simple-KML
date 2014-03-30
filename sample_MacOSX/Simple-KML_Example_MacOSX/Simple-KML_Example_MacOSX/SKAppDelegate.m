@@ -16,6 +16,7 @@
 #import <Simple-KML/SimpleKMLPolygon.h>
 #import <Simple-KML/SimpleKMLLinearRing.h>
 
+
 @implementation SKAppDelegate
 
 @synthesize mapView;
@@ -95,11 +96,11 @@
 }
 
 #if 1
-- (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay
+- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id < MKOverlay >)overlay
 {
     // we get here in order to draw any polygon
     //
-    MKPolygonView *polygonView = [[MKPolygonView alloc] initWithPolygon:(MKPolygon *)overlay];
+    MKPolygonRenderer *polygonView = [[MKPolygonRenderer alloc] initWithPolygon:(MKPolygon *)overlay];
     
     // use some sensible defaults - normally, you'd probably look for LineStyle & PolyStyle in the KML
     //
@@ -113,29 +114,29 @@
 #endif
 
 
-#pragma mark MKReverseGeocoderDelegate
-
-- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFindPlacemark:(MKPlacemark *)placemark
-{
-    //NSLog(@"found placemark: %@", placemark);
-}
-
-- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFailWithError:(NSError *)error
-{
-    //NSLog(@"MKReverseGeocoder didFailWithError: %@", error);
-}
-
-#pragma mark MKGeocoderDelegate
-
-- (void)geocoder:(MKGeocoder *)geocoder didFindCoordinate:(CLLocationCoordinate2D)coordinate
-{
-    //NSLog(@"MKGeocoder found (%f, %f) for %@", coordinate.latitude, coordinate.longitude, geocoder.address);
-}
-
-- (void)geocoder:(MKGeocoder *)geocoder didFailWithError:(NSError *)error
-{
-    //NSLog(@"MKGeocoder didFailWithError: %@", error);
-}
+//#pragma mark MKReverseGeocoderDelegate
+//
+//- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFindPlacemark:(MKPlacemark *)placemark
+//{
+//    //NSLog(@"found placemark: %@", placemark);
+//}
+//
+//- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFailWithError:(NSError *)error
+//{
+//    //NSLog(@"MKReverseGeocoder didFailWithError: %@", error);
+//}
+//
+//#pragma mark MKGeocoderDelegate
+//
+//- (void)geocoder:(MKGeocoder *)geocoder didFindCoordinate:(CLLocationCoordinate2D)coordinate
+//{
+//    //NSLog(@"MKGeocoder found (%f, %f) for %@", coordinate.latitude, coordinate.longitude, geocoder.address);
+//}
+//
+//- (void)geocoder:(MKGeocoder *)geocoder didFailWithError:(NSError *)error
+//{
+//    //NSLog(@"MKGeocoder didFailWithError: %@", error);
+//}
 
 #pragma mark MapView Delegate
 

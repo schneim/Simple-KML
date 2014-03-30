@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import <MapKit/MapKit.h>
 
-@interface SKAppDelegate : NSObject <NSApplicationDelegate>
+@interface SKAppDelegate : NSObject <NSApplicationDelegate,MKMapViewDelegate>
 {
         NSMutableArray *coreLocationPins;
 }
