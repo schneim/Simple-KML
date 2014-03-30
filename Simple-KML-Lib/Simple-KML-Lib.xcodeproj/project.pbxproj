@@ -96,7 +96,6 @@
 		9B6191C5161983BE002981F5 /* SimpleKMLPointTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C4161983BE002981F5 /* SimpleKMLPointTest.m */; };
 		9B6191C81619AB7D002981F5 /* SimpleKMLObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6191C71619AB7D002981F5 /* SimpleKMLObjectTest.m */; };
 		9B6191E41619B99B002981F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B6191E21619B99B002981F5 /* InfoPlist.strings */; };
-		9B6191EF1619B99B002981F5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AC815D9A35E0041D8EE /* SenTestingKit.framework */; };
 		9B6191F01619B99B002981F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D91619B99B002981F5 /* Cocoa.framework */; };
 		9B6191F31619B99B002981F5 /* Simple-KML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6191D81619B99A002981F5 /* Simple-KML.framework */; };
 		9B6191F91619B99B002981F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B6191F71619B99B002981F5 /* InfoPlist.strings */; };
@@ -136,7 +135,6 @@
 		9BBC3C5217974B0A003416B1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBC3C5117974B0A003416B1 /* Cocoa.framework */; };
 		9BD34C0C16202DB70066A937 /* SimpleKMLColorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD34C0B16202DB70066A937 /* SimpleKMLColorTest.m */; };
 		9BFE3ABA15D9A35E0041D8EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AB915D9A35E0041D8EE /* Foundation.framework */; };
-		9BFE3AC915D9A35E0041D8EE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AC815D9A35E0041D8EE /* SenTestingKit.framework */; };
 		9BFE3ACB15D9A35E0041D8EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3ACA15D9A35E0041D8EE /* UIKit.framework */; };
 		9BFE3ACC15D9A35E0041D8EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AB915D9A35E0041D8EE /* Foundation.framework */; };
 		9BFE3ACF15D9A35E0041D8EE /* libSimple-KML-Lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFE3AB615D9A35E0041D8EE /* libSimple-KML-Lib.a */; };
@@ -309,7 +307,7 @@
 		9B6191E11619B99B002981F5 /* Simple-KML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Simple-KML-Info.plist"; path = "../Simple-KML/Simple-KML-Info.plist"; sourceTree = "<group>"; };
 		9B6191E31619B99B002981F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B6191E51619B99B002981F5 /* Simple-KML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Simple-KML-Prefix.pch"; path = "../Simple-KML/Simple-KML-Prefix.pch"; sourceTree = "<group>"; };
-		9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple-KML-FrameworkTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple-KML-FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6191F61619B99B002981F5 /* Simple-KMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-KMLTests-Info.plist"; sourceTree = "<group>"; };
 		9B6191F81619B99B002981F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B619233161A454D002981F5 /* SimpleKMLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleKMLImage.h; sourceTree = "<group>"; };
@@ -329,7 +327,6 @@
 		9BFE3AB915D9A35E0041D8EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BFE3ABD15D9A35E0041D8EE /* Simple-KML-Lib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple-KML-Lib-Prefix.pch"; sourceTree = "<group>"; };
 		9BFE3AC715D9A35E0041D8EE /* Simple-KML-LibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple-KML-LibTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BFE3AC815D9A35E0041D8EE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9BFE3ACA15D9A35E0041D8EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9BFE3AD215D9A35E0041D8EE /* Simple-KML-LibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple-KML-LibTests-Info.plist"; sourceTree = "<group>"; };
 		9BFE3AD415D9A35E0041D8EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -456,7 +453,6 @@
 				9B2989BE162B743C002FBA29 /* CoreLocation.framework in Frameworks */,
 				9B2989BD162B7404002FBA29 /* OCHamcrest.framework in Frameworks */,
 				9B2989A0162B72F7002FBA29 /* OCMock.framework in Frameworks */,
-				9B6191EF1619B99B002981F5 /* SenTestingKit.framework in Frameworks */,
 				9B6191F01619B99B002981F5 /* Cocoa.framework in Frameworks */,
 				9B6191F31619B99B002981F5 /* Simple-KML.framework in Frameworks */,
 			);
@@ -482,7 +478,6 @@
 				9BFE3F8215D9AE160041D8EE /* CoreLocation.framework in Frameworks */,
 				9BFE3F8015D9AE0B0041D8EE /* libxml2.dylib in Frameworks */,
 				9BFE3F7915D9A9220041D8EE /* libOCMock.a in Frameworks */,
-				9BFE3AC915D9A35E0041D8EE /* SenTestingKit.framework in Frameworks */,
 				9BFE3F7C15D9AC550041D8EE /* OCHamcrestIOS.framework in Frameworks */,
 				9BFE3ACB15D9A35E0041D8EE /* UIKit.framework in Frameworks */,
 				9BFE3ACC15D9A35E0041D8EE /* Foundation.framework in Frameworks */,
@@ -549,7 +544,7 @@
 				9BFE3AB615D9A35E0041D8EE /* libSimple-KML-Lib.a */,
 				9BFE3AC715D9A35E0041D8EE /* Simple-KML-LibTests.octest */,
 				9B6191D81619B99A002981F5 /* Simple-KML.framework */,
-				9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.octest */,
+				9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -569,7 +564,6 @@
 				9BFE3F8115D9AE160041D8EE /* CoreLocation.framework */,
 				9BFE3F7A15D9AC340041D8EE /* OCHamcrestIOS.framework */,
 				9BFE3AB915D9A35E0041D8EE /* Foundation.framework */,
-				9BFE3AC815D9A35E0041D8EE /* SenTestingKit.framework */,
 				9BFE3ACA15D9A35E0041D8EE /* UIKit.framework */,
 				9B6191D91619B99B002981F5 /* Cocoa.framework */,
 				9B6191DB1619B99B002981F5 /* Other Frameworks */,
@@ -923,8 +917,8 @@
 			);
 			name = "Simple-KML-FrameworkTests";
 			productName = "Simple-KMLTests";
-			productReference = 9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 9B6191EE1619B99B002981F5 /* Simple-KML-FrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9BFE3AB515D9A35E0041D8EE /* Simple-KML-Lib */ = {
 			isa = PBXNativeTarget;
@@ -1373,7 +1367,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
@@ -1384,7 +1381,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -1395,7 +1391,10 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
+				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple-KML/Simple-KML-Prefix.pch";
@@ -1405,7 +1404,6 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

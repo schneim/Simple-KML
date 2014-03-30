@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 jemm. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface SimpleKMLColorTest : SenTestCase
+@interface SimpleKMLColorTest : XCTestCase
 
 @end

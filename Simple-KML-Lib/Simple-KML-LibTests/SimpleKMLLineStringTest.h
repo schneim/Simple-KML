@@ -6,7 +6,7 @@
 //
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import "SimpleKMLObjectTest.h"
 
 @interface SimpleKMLLineStringTest : SimpleKMLObjectTest

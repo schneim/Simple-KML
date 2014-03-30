@@ -6,10 +6,10 @@
 //  Copyright (c) 2012 jemm. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import "SimpleKML.h"
 
-@interface SimpleKMLObjectTest : SenTestCase
+@interface SimpleKMLObjectTest : XCTestCase
 
 
 @property SimpleKML*            kml;

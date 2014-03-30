@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 jemm. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import "SimpleKMLObjectTest.h"
 
 @interface SimpleKMLLinearRingTest : SimpleKMLObjectTest
